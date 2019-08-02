@@ -21,8 +21,6 @@ class Navbar extends React.Component{
                             <li className='menu-ul'><Link to='/dona'>Dona</Link></li>
                         </ul>
                     </div>
-                    <div className="menu-right-col">
-                    </div>
                 </nav>
             </header>
         )
