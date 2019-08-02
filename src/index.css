@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background:white;
+}
+
+header {
+  width: 100%;
+  background:white;
+}
+
+.menu-nav-row,.menu-ul-row{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+}
+.menu-left-col,.menu-center-col,.menu-right-col{
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+}
+/* NAVBAR */
+.menu-nav-row{
+    align-self: flex-end;
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+.menu-left-col{
+  align-self: center;
+  width: auto;
+  flex-wrap: nowrap;
+}
+
+.menu-center-col{
+  align-items: center;
+}
+.menu-right-col{
+  width:5%;
+}
+
+.menu-ul-row{
+  padding:0;
+  margin:0;
+  margin-top:3%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-ul-row li{
+  font-weight: bold;
+  display: block;
+  text-align: center;
+
+}
+
+.menu-ul-row li a:link{
+  display: block;
+  padding: 15px 10px 15px 10px;
+  
+  text-decoration: none;
+  color:black;
+}
+
+.menu-ul-row li a:hover,.btn-selected-navbar{
+  background-color: #F1F1F1;
+}
+
+.menu-ul,.btn-selected-navbar{
+  flex:1;
+  margin: 0px 20px;
+}
+
+.menu-icon{
+  width: auto;
+  height:5vh;
+  margin-left: 20px;
+}
+
+/* /////// */
+
+.pin-icon{
+  width: 25px;
+  padding: 2px 2px 2px 2px;
+}
+
+.section-row, .section-two-row, .button-row{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+}
+
+.section-row{
+  margin-top: 10%;
+}
+
+.section-two-row{
+  margin-top:0;
+}
+
+.section-col, .section-two-row{
+  width: 45%;
+  margin-left: 10%;
+}
+
+.section-img-col{
+  
+  width: 45%;
+}
+
+.section-img-col img{
+  width: 45%;
+  width: 70%;
+  border-radius: 30px;
+}
+
+.carousel-row{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin-left: 25%
+}
+
+.carousel-col{
+  display: flex;
+  flex-direction:row;
+  width: 50%;
+}
+
+.carousel-text-col{
+  margin-left: 10%;
+}
+
+.footer-row{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  background: #7F4787;
+}
+
+.button-row{
+  margin: 5%;
+  }
+
+.button-col{
+  padding: 10%;
+}
+
+.button-lupus{
+  width: 100px;
+  height: 50px;
+  border-radius: 7%;
+  color: #F1F1F1;
+  background: #7F4787;
+  border-style: none;
+}
