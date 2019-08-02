@@ -5,7 +5,7 @@ import BodyAboutUs from '../components/BodyAboutUs';
 import Footer from '../components/Footer';
 
 class AboutUsView extends React.Component{
-
+   
     render(){
         return (
             <>

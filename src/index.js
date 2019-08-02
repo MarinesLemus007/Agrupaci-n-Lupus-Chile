@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import './index.css';
 import AboutUsView from './views/AboutUsView';
-
+import DefinitionView from './views/DefinitionView';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -11,7 +11,8 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
     <Router>
     <div>
-      <Route exact path={process.env.PUBLIC_URL + '/'} component={AboutUsView} />
+      <Route exact path= '/' component={AboutUsView} />
+      <Route path='/definición' component={DefinitionView} />
     </div>
   </Router>
 )
