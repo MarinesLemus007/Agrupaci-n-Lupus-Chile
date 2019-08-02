@@ -16,12 +16,10 @@ class Navbar extends React.Component{
                     <div className="menu-center-col">
                         <ul className="menu-ul-row">
                             <li className='menu-ul'><Link to={process.env.PUBLIC_URL + '/'}>Nosotros</Link></li>
-                            <li className='menu-ul'><Link to='/lupus'>¿Qué es el Lupus?</Link></li>
+                            <li className='menu-ul'><Link to='/holi'>¿Qué es el Lupus?</Link></li>
                             <li className='menu-ul'><Link to='/costear'>¿Cómo costear tu enfermedad?</Link></li>
                             <li className='menu-ul'><Link to='/dona'>Dona</Link></li>
                         </ul>
-                    </div>
-                    <div className="menu-right-col">
                     </div>
                 </nav>
             </header>
