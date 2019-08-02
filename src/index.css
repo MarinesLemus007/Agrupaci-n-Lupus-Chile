@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Shanti&display=swap');
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Shanti', sans-serif;
   background:white;
 }
 
@@ -22,61 +21,58 @@ header {
   width: 100%;
 }
 /* NAVBAR */
+.menu-center-col{
+  align-self: center;
+}
+
 .menu-nav-row{
-    align-self: flex-end;
     background-color: white;
     margin-bottom: 1%;
 }
 
 .menu-left-col{
+  flex:1;
   align-self: center;
-  width: auto;
   flex-wrap: nowrap;
-}
-
-.menu-center-col{
-  align-items: center;
-}
-.menu-right-col{
-  width:5%;
 }
 
 .menu-ul-row{
   padding:0;
   margin:0;
-  margin-top:3%;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .menu-ul-row li{
-  font-weight: bold;
-  display: block;
+  display:inline-flex;
+  list-style-type: none;
   text-align: center;
-
+  align-items:center;
+  justify-content:center;
 }
 
-.menu-ul-row li a:link{
+.menu-ul-row li a{
   display: block;
-  padding: 15px 10px 15px 10px;
-  
   text-decoration: none;
   color:black;
+  align-self:center;
 }
 
-.menu-ul-row li a:hover,.btn-selected-navbar{
-  background-color: #F1F1F1;
-}
 
-.menu-ul,.btn-selected-navbar{
+.menu-ul{
+  text-align: center;
+  padding:1.5%;
+  margin:10px;
   flex:1;
-  margin: 0px 20px;
+}
+
+.menu-ul:hover{
+background-color: rgb(218, 218, 218)
 }
 
 .menu-icon{
   width: auto;
-  height:5vh;
-  margin-left: 20px;
+  height:12vh;
+  margin: 10px;
 }
 
 /* /////// */
