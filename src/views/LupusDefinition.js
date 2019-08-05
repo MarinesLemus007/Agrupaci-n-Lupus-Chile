@@ -1,10 +1,9 @@
 import React from 'react';
-import '../index.css';
+import '../indexNew.css';
 import Navbar from '../components/Navbar';
-import BodyAboutUs from '../components/BodyAboutUs';
 import Footer from '../components/Footer';
 
-class AboutUsView extends React.Component{
+class LupusDefinition extends React.Component{
 
     render(){
         return (
@@ -17,4 +16,4 @@ class AboutUsView extends React.Component{
     }
 }
 
-export default AboutUsView;
+export default LupusDefinition;

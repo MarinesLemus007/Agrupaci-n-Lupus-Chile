@@ -1,6 +1,6 @@
 import React from 'react';
 import us from '../img/us.jpeg';
-import DemoCarousel from './Carousel'
+
 
 class BodyAboutUs extends React.Component{
 
@@ -25,7 +25,7 @@ class BodyAboutUs extends React.Component{
                     </div> 
                     <div className='carousel-row'>
                         <div className='carousel-col'>
-                            <DemoCarousel/>
+                           
                         </div>
                     </div>
                     <div className='section-two-row'>
