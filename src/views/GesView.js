@@ -1,5 +1,4 @@
 import React from 'react';
-import '../index.css';
 import NavbarR from '../components/NavbarR';
 import BodyGes from '../components/BodyGes'
 
