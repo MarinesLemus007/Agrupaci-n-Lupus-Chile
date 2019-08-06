@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Shanti&display=swap');
+body {
+  margin: 0;
+  font-family: 'Shanti', sans-serif;
+  background:white;
+}
+/* seccion 'sobre nosotros' */
+.about-us,.work-approach{
+    margin: 8rem 0rem 8rem 0rem;
+    font-size: 20px;
+}
+
+.img_home{
+    width: 100%;
+}
+.img-container{
+    text-align: center;
+}
+
+/* seccion 'enfoque de trabajo' */
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid #7E2C81;
+}
+.carousel-indicators .active{
+    background-color: #7E2C81;
+    border:none;
+}
+.carousel-indicators {
+    margin-bottom: -50px;
+}
+
+.carousel-tittle,.about-us-tittle,.work-approach-tittle,.get-involved-tittle{
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.w-100{
+    margin-bottom: 8px;
+}
+
+/*/ seccion involucrate /*/ 
+.get-involved{
+    margin:8rem 0rem 2rem 0rem;
+}
+
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #7E2C81;
+    color:white;
+    width:100%;
+    margin:10px 0px 10px 0px;
+    border-radius: 5px;
+    padding:20px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(154, 101, 156);
+}
+
+.button-div{
+    display: flex;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  
+   
+}
+
+
