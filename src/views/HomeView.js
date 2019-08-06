@@ -2,8 +2,7 @@ import React from 'react';
 import '../styles/homeView.css';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Row, Container } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import img_home_1 from '../img/img_home_1.jpg';
 import IndexCarousel from '../components/IndexCarousel';
 import ButtonIndex from '../components/ButtonIndex';
@@ -30,7 +29,7 @@ class HomeView extends React.Component{
                         </Col>  
                         <Col md={5}>
                             <div className="img-container">
-                                <img className="img_home" src={img_home_1} alt="Sobre Nosotros" />
+                                <img className="img-home" src={img_home_1} alt="Sobre Nosotros" />
                             </div>
                         </Col>
                     </Row>
