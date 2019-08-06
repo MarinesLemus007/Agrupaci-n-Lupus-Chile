@@ -2,14 +2,10 @@ import React from "react";
 import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
-import "./styles/AboutUs.css";
+import "../styles/AboutUs.css";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import agrupacionFachada from "../img/iconosPng/agrupacionFachada.jpg";
-
-
-
-
+import agrupacionFachada from "../img/agrupacionFachada.jpg";
 
 class AboutUs extends React.Component {
     render(){

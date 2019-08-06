@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
@@ -10,17 +9,12 @@ import twitter_white from "../img/iconosPng/twitter_white.png";
 import pin_white from "../img/iconosPng/pin_white.png";
 import whatsapp_white from "../img/iconosPng/whatsapp_white.png";
 import email_white from "../img/iconosPng/email_white.png";
-=======
-import React from 'react';
-
->>>>>>> ec5e21d281b3e313e6e98d3ddbdb3ec628f3f35e
 
 
 
 
 class Footer extends React.Component {
     render(){
-<<<<<<< HEAD
         return <div className="footer">
             <Container>
                 <Row>
@@ -51,18 +45,6 @@ class Footer extends React.Component {
                                 <p>contacto@agrupacionlupuschile.cl</p><br/>
                             </Col>
                         </Row>
-=======
-        return (
-            <footer>
-                <div className="footer-row">
-                    <h2>Contáctanos</h2>
-                    <div className="footer-col">
-                        <ul className="footer-ul-row">
-                            <li><img className="pin-icon"  alt="pin" /> Hospital Sótero del Río Av. Concha y Toro 3459, Puente Alto, Santiago.</li>
-                            <li><img className="pin-icon"  alt="telefono" />+56 9 93058454 </li>
-                            <li><img className="pin-icon"  alt="mail" />contacto@agrupacionlupuschile.cl</li>
-                        </ul>
->>>>>>> ec5e21d281b3e313e6e98d3ddbdb3ec628f3f35e
                     </div>
                     </Col>
                     
