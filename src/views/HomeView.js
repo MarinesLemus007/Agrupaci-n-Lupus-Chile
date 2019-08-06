@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/homeView.css';
-import Navbar from '../components/Navbar';
+import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Row, Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
@@ -14,7 +14,7 @@ class HomeView extends React.Component{
         return (
             <>
                
-                <Navbar/>
+                <NavBar/>
                 <Container>
                 <section className="about-us">
                     <Row>

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/lupusDefinitionView.css';
-import Navbar from '../components/Navbar';
+import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 class LupusDefinition extends React.Component{
@@ -8,7 +8,7 @@ class LupusDefinition extends React.Component{
     render(){
         return (
             <>
-                <Navbar/>
+                <NavBar/>
                
                 <Footer/>
             </>

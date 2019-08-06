@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarR from '../components/NavbarR';
+import NavBar from '../components/Navbar';
 import BodyGes from '../components/BodyGes'
 
 class GesView extends React.Component{
@@ -7,7 +7,7 @@ class GesView extends React.Component{
     render(){
         return (
             <>
-                <NavbarR/>
+                <NavBar/>
                 <BodyGes/>
             </>
         )
