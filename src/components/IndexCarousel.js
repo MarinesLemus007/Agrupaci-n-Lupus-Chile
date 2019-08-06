@@ -20,7 +20,7 @@ class IndexCarousel extends Component {
                             />
                         </Col>
                         <Col md={7}>
-                            <h2>Titulo</h2>
+                            <h2 className="carousel-tittle">Titulo</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
@@ -38,7 +38,7 @@ class IndexCarousel extends Component {
                             />
                         </Col>
                         <Col md={7}>
-                            <h2>Titulo</h2>
+                            <h2 className="carousel-tittle">Titulo</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 

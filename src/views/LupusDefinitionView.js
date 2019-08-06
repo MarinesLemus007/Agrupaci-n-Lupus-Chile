@@ -1,5 +1,5 @@
 import React from 'react';
-import '../indexNew.css';
+import '../styles/lupusDefinitionView.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import './indexNew.css';
-import LupusDefinition from './views/LupusDefinition';
+import './styles/homeView.css';
+import LupusDefinition from './views/LupusDefinitionView';
 import HomeView from './views/HomeView';
 
 import * as serviceWorker from './serviceWorker';
