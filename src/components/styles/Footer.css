@@ -1,0 +1,60 @@
+.footer{
+    background-color: #7E2C81 ;
+    padding: 24px;
+}
+
+.footer_logo_twitter{
+    height: 30px;
+    margin: 3%
+}
+.footer_logo_facebook{
+    height: 30px;
+    margin: 3%
+}
+.footer_logo_youtube {
+    height: 30px;
+    margin: 3%
+}
+.footer_logo_address{
+    height: 30px;
+}
+.footer_logo_email{
+    height: 30px;
+}
+.footer_logo_whatsapp{
+    height: 30px;
+}
+.footer p{
+    color: white;
+    margin :0%;
+    text-align: center;
+}
+.footer a {
+    color: white;
+}
+.footer h1 {
+    color: white;
+}
+ .footer ul{
+    list-style: disc;
+    color: rgb(33, 223, 236);
+ }
+ .socialMedia {
+    text-align:center;
+ }
+ /* .map {
+    text-align:center;
+    padding: 3%;    
+ } */
+ .info{
+     padding:  15% 0 0 10%;
+ }
+ .contact{
+     margin-top: 3%;
+ }
+  @media only screen and (max-width: 768px) {
+    .info{
+        display: none
+    }
+    
+ }
