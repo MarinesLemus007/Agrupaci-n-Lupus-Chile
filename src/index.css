@@ -10,6 +10,12 @@ header {
   background:white;
 }
 
+section {
+  width: 100%;
+  background:white;
+  margin-top: 128px;
+}
+
 .menu-nav-row,.menu-ul-row{
   display: flex;
   flex-direction:row;
