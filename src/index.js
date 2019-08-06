@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import './index.css';
-import FriendView from './views/FriendView';
-import AboutUsView from './views/AboutUsView';
 import GesView from './views/GesView';
 import * as serviceWorker from './serviceWorker';
 
@@ -12,8 +9,7 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
     <Router>
     <div>
-      <Route exact path={process.env.PUBLIC_URL + '/'} component={AboutUsView} />
-      <Route path='/holi' component={FriendView} />
+      <Route exact path={process.env.PUBLIC_URL + '/'} component={HomeView} />
       <Route path='/Ges' component={GesView} />
     </div>
   </Router>
