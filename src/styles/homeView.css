@@ -4,36 +4,59 @@ body {
   font-family: 'Shanti', sans-serif;
   background:white;
 }
-/* seccion 'sobre nosotros' */
-.about-us,.work-approach{
-    margin: 8rem 0rem 8rem 0rem;
+/* seccion testimonios */
+.testimony,.work-approach{
+    margin: 4rem 0rem 8rem 0rem;
     font-size: 20px;
 }
 
+.testimony > div >div {
+    margin-bottom: 10px;
+}
+.testimony > div >div > p{
+    margin: 0px 0px 15px 0px;
+}
 .img_home{
     width: 100%;
 }
+
 .img-container{
     text-align: center;
 }
+.div-testimony{
+    display: flex;
+    justify-content: flex-end;
+}
 
+.a-testimony{
+    margin-right: 50px;
+    font-size: 15px;
+    color: #7E2C81;
+    border-bottom: 3px solid  #7E2C81;
+    padding-bottom: 3px;
+}
+.a-testimony:hover{
+    text-decoration: none;
+    color:rgb(154, 101, 156);
+    border-bottom: 3px solid  rgb(154, 101, 156);
+}
 /* seccion 'enfoque de trabajo' */
 .carousel-indicators li {
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-color: white;
-    border: 1px solid #7E2C81;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100% !important;
+    background-color: white !important;
+    border: 1px solid #7E2C81 !important;
 }
 .carousel-indicators .active{
-    background-color: #7E2C81;
+    background-color: #7E2C81 !important;
     border:none;
 }
 .carousel-indicators {
     margin-bottom: -50px;
 }
 
-.carousel-tittle,.about-us-tittle,.work-approach-tittle,.get-involved-tittle{
+.carousel-tittle,.testimony-tittle,.work-approach-tittle,.get-involved-tittle{
     font-weight: bolder;
     margin-bottom: 24px;
 }
@@ -44,7 +67,7 @@ body {
 
 /*/ seccion involucrate /*/ 
 .get-involved{
-    margin:8rem 0rem 2rem 0rem;
+    margin:8rem 0rem 8rem 0rem;
 }
 
 .button{
@@ -69,6 +92,8 @@ body {
     display: flex;
     text-align: center;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   
