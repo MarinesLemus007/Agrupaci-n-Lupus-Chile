@@ -6,7 +6,6 @@ class BodyAboutUs extends React.Component{
 
     render(){
         return (
-            <body>
                 <section>
                     <div className='section-row'>
                         <div className='section-col'>
@@ -50,7 +49,6 @@ class BodyAboutUs extends React.Component{
                     </div>
                     </div>
                 </section>
-            </body>
         )
     }
 }

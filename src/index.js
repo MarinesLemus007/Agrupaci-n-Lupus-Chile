@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import './styles/homeView.css';
 import LupusDefinition from './views/LupusDefinitionView';
 import HomeView from './views/HomeView';
+import GesView from './views/GesView';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -14,6 +15,7 @@ const routing = (
     <div>
       <Route exact path={process.env.PUBLIC_URL + '/'} component={HomeView} />
       <Route path='/Que-es-el-lupus' component={LupusDefinition} />
+      <Route path='/Ges' component={GesView} />
 
     </div>
   </Router>
