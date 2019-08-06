@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import './index.css';
 import FriendView from './views/FriendView';
 import AboutUsView from './views/AboutUsView';
-import DefinitionView from './views/DefinitionView';
+// import DefinitionView from './views/DefinitionView';
 import * as serviceWorker from './serviceWorker';
-
 
 
 const routing = (
