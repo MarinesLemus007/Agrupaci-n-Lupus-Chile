@@ -23,6 +23,7 @@ class NavBar extends React.Component{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
+                        <Nav.Link href="/">Inicio</Nav.Link>
                         <NavDropdown title="¿Qué es el Lupus?" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/Que-es-el-lupus">
                                 ¿Qué es el Lupus?

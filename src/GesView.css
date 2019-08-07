@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Shanti&display=swap');
+body {
+  margin: 0;
+  font-family: 'Shanti', sans-serif;
+  background:white;
+}
+
+section{
+    margin: 8rem 0rem 8rem 0rem;
+    font-size: 20px;
+}
+
+.ges-img{
+    text-align: center;
+}
+
+.img-container{
+    width: 100%;
+}
+
 div.row>div.col-sm-12>div.line-migas {
     margin: 0px 0px 32px 0px;
 }
