@@ -12,35 +12,68 @@ class AboutUs extends React.Component {
         return (
             <div className="AboutUs">
                 <Navbar/>
-                <Container>
-                    <Row> 
-                        <div className="AboutUsfirth">   
-                            <h1>Quiénes somos</h1>  
+                <section>
+                    <Container>
+                        <Row> 
                             <Col md={7} >
+                            <div className="AboutUsfirth">   
+                                <h1>Quiénes somos</h1>  
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
                             </Col>
                             <Col md={5} >
-                                <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
-                            </Col>   
-                        </div>        
-                        <div className="AboutUsSecond"> 
+                                <div>
+                                    <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
+                                </div> 
+                            </Col> 
+                        </Row>  
+                        <Row>
                             <Col md={12} >  
-                                <h1>Quiénes somos</h1>
+                                <div className="AboutUsSecond"> 
+                                    <h1>Quiénes somos</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
                             </Col>
-                            <Col md={12} > 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </Col>
-                        </div>
-                    <div className="AboutUsthird">
+                        </Row>
+                        <Row>
                             <Col md={6} >
-                                <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
+                                <div className="AboutUsthird">
+                                    <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
+                                </div>
                             </Col> 
                             <Col md={6} >
-                                <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
+                                <div>
+                                    <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
+                                </div>
                             </Col> 
-                        </div>
-                    </Row>
-                </Container>
+                        </Row>
+                        <Row>
+                            <Col sm={12}>
+                                <div className='linksOfInterestTitle'>
+                                    <h2>Enlaces de interés</h2>
+                                </div>    
+                            </Col>
+                        </Row>
+                            <Row>
+                            <Col sm={12}>
+                                <div className='linksOfInterest'>
+                                    <h3>Visita los siguientes links</h3>
+                                </div>    
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col sm={12}>
+                                <div className='linksOfInterest'>
+                                    <lu>
+                                        <li><a href="#">Link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                    </lu>
+                                </div>    
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
                 <Footer/>
             </div>
         )
