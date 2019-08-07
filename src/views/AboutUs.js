@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import "../styles/AboutUs.css";
-import Navbar from '../components/Navbar';
+import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Form from 'react-bootstrap/Form'
@@ -15,8 +15,12 @@ class AboutUs extends React.Component {
     render(){
         return (
             <div className="AboutUs">
+<<<<<<< HEAD
                 <Navbar/>
 
+=======
+                <NavBar/>
+>>>>>>> 284fea42db1f1684d466c71d9740ee193c356e1e
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
                 <Breadcrumb.Item href='/Quienes-Somos'>
@@ -114,6 +118,7 @@ class AboutUs extends React.Component {
                     </Container>
                 </section>
                 <Footer/>
+                
             </div>
         )
     }

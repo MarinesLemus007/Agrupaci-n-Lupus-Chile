@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Shanti&display=swap');
+body {
+  margin: 0;
+  font-family: 'Shanti', sans-serif;
+  background:white;
+}
+
 .navbar{
     box-shadow: 2px 2px 15px -10px rgba(0,0,0,0.75);
 }
