@@ -5,6 +5,7 @@ import { Row } from 'react-bootstrap';
 import "../styles/AboutUs.css";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
 
 class AboutUs extends React.Component {
@@ -12,6 +13,13 @@ class AboutUs extends React.Component {
         return (
             <div className="AboutUs">
                 <Navbar/>
+                <Breadcrumb>
+                <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
+                <Breadcrumb.Item href='/Quienes-Somos'>
+                Quiénes Somos?
+                </Breadcrumb.Item>
+                <Breadcrumb.Item active>Quiénes Somos?</Breadcrumb.Item>
+                </Breadcrumb>
                 <section>
                     <Container>
                         <Row> 
