@@ -6,8 +6,6 @@ import "../styles/AboutUs.css";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
 
 
@@ -77,41 +75,14 @@ class AboutUs extends React.Component {
                             <Col sm={12}>
                                 <div className='linksOfInterest'>
                                     <lu>
-                                        <li><a href="#">Link 1</a></li>
-                                        <li><a href="#">Link 2</a></li>
-                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="">Link 1</a></li>
+                                        <li><a href="/Donar">Link 2</a></li>
+                                        <li><a href="/Suscribe">Link 3</a></li>
                                     </lu>
                                 </div>    
                             </Col>
                         </Row>
-                        <Form>
-                            <div className="Submit" >                         
-                                <h3>Sé el primero en enterarte de nuestras noticias y eventos , Suscribete</h3> 
-                                <Row>                         
-                                    <div className="form-group col-md-5">
-                                        <Form.Group controlId="formBasicEmail">
-                                            <Form.Label>Nombre</Form.Label>
-                                            <Form.Control type="Username" placeholder="Username" />
-                                            <Form.Text className="text-muted">
-                                                Nunca compartiremos tus datos personales.
-                                            </Form.Text>
-                                        </Form.Group>
-                                    </div>
-
-                                    <div className="form-group col-md-5">
-                                        <Form.Group controlId="formBasicPassword">
-                                            <Form.Label>Email</Form.Label>
-                                            <Form.Control type="Email address" placeholder="Email address" />
-                                        </Form.Group>
-                                    </div>
-                                    <div className="form-group col-md-2">
-                                        <Button className ="submit"type="submit">
-                                            Submit
-                                        </Button>
-                                    </div>
-                                </Row>
-                            </div>
-                        </Form>
+                        
                     </Container>
                 </section>
                 <Footer/>

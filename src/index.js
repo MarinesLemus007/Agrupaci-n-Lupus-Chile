@@ -22,7 +22,7 @@ const routing = (
       <Route path='/Ges' component={GesView} />
       <Route path='/Quienes-Somos' component={AboutUs} />
       <Route path='/Donar' component={Donation} />
-      <Route path='/Suscribete' component={Submit} />
+      <Route path='/Suscribe' component={Submit} />
 
 
 
