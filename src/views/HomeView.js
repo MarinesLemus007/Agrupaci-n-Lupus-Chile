@@ -7,6 +7,7 @@ import { Col } from 'react-bootstrap';
 import img_home_1 from '../img/img_home_1.jpg';
 import IndexCarousel from '../components/IndexCarousel';
 import ButtonIndex from '../components/ButtonIndex';
+import BreadCrumb from '../components/BreadCrumb';
 
 class HomeView extends React.Component{
 
@@ -15,6 +16,7 @@ class HomeView extends React.Component{
             <>
                
                 <NavBar/>
+                <BreadCrumb/>
                 <Container>
                 <section className="about-us">
                     <Row>
@@ -67,8 +69,8 @@ class HomeView extends React.Component{
                         </Col>
                     </Row>
                 </section>
-                <Footer/>
                 </Container>
+                <Footer/>
             </>
         )
     }
