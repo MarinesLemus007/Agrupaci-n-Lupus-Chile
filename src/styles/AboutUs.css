@@ -39,3 +39,10 @@ body {
     background-color: #7E2C81;
     background:white;
 }
+
+
+.form-group.col-md-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

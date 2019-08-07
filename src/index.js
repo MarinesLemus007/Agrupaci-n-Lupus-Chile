@@ -6,6 +6,10 @@ import LupusDefinition from './views/LupusDefinitionView';
 import HomeView from './views/HomeView';
 import GesView from './views/GesView';
 import AboutUs from './views/AboutUs';
+import Donation from './views/Donation';
+import Submit from './views/Submit';
+
+
 
 import * as serviceWorker from './serviceWorker';
 
@@ -17,6 +21,10 @@ const routing = (
       <Route path='/Que-es-el-lupus' component={LupusDefinition} />
       <Route path='/Ges' component={GesView} />
       <Route path='/Quienes-Somos' component={AboutUs} />
+      <Route path='/Donar' component={Donation} />
+      <Route path='/Suscribe' component={Submit} />
+
+
 
     </div>
   </Router>

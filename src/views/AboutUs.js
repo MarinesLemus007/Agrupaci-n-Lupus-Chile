@@ -3,16 +3,18 @@ import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import "../styles/AboutUs.css";
-import NavBar from '../components/Navbar';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
+
 
 class AboutUs extends React.Component {
     render(){
         return (
             <div className="AboutUs">
-                <NavBar/>
+                <Navbar/>
+
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
                 <Breadcrumb.Item href='/Quienes-Somos'>
@@ -73,17 +75,17 @@ class AboutUs extends React.Component {
                             <Col sm={12}>
                                 <div className='linksOfInterest'>
                                     <lu>
-                                        <li><a href="#">Link 1</a></li>
-                                        <li><a href="#">Link 2</a></li>
-                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="">Link 1</a></li>
+                                        <li><a href="/Donar">Link 2</a></li>
+                                        <li><a href="/Suscribe">Link 3</a></li>
                                     </lu>
                                 </div>    
                             </Col>
                         </Row>
+                        
                     </Container>
                 </section>
                 <Footer/>
-                
             </div>
         )
     }
