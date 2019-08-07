@@ -24,9 +24,12 @@ body {
     font-weight: bolder;
     margin-bottom: 24px;
 }
-.definition-subtittle{
+.definition-subtittle,.definition-ul > li > h4{
     font-size:25px;
     font-weight: bolder;
+}
+.definition-ul > li > h4{
+    font-size:20px;
 }
 .img-def-1{
     width: 100%;
@@ -49,15 +52,22 @@ body {
 /* tabla */
 table, th, td {
     border: 1px solid black;
-  }
+}
+
 th, td{
     padding:5px;
 }
+
 .td-center{
     text-align: center;
-
 }
+
 table{
     margin-top: 10px;
     width: 100%;
-  }
+}
+
+.definition-ul{
+    margin-top:10px;
+    list-style-type: disc;
+}

@@ -20,7 +20,7 @@ class LupusDefinition extends React.Component{
                         </Col>
                     </Row>
                 </section>
-                
+
                 <section className="definition">
                     <Row>
                         <Col md={7} >
@@ -135,24 +135,66 @@ class LupusDefinition extends React.Component{
                 <section className="definition-3">
                     <Row>
                         <Col md={12}>
-                            <table class="sint">
-                                <tr>
-                                <th>Sintomas</th>
-                                <th>Porcentaje de casos</th>
-                                </tr>
-                                <tr>
-                                <td>Articulaciones dolorosas (Artralgia)</td>
-                                <td className="td-center">95%</td>
-                                </tr>
-                                <tr>
-                                <td>Temperaturas frecuentes de más de 37,5ºC</td>
-                                <td className="td-center">90%</td>
-                                </tr>
-                                <tr>
-                                <td>Artritis (Articulaciones hinchadas)</td>
-                                <td className="td-center">90%</td>
-                                </tr>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Sintomas</th>
+                                        <th>Porcentaje de casos</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Articulaciones dolorosas (Artralgia)</td>
+                                        <td className="td-center">95%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Temperaturas frecuentes de más de 37,5ºC</td>
+                                        <td className="td-center">90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Artritis (Articulaciones hinchadas)</td>
+                                        <td className="td-center">90%</td>
+                                    </tr>
+                                </tbody>
                             </table>
+                        </Col>
+                    </Row>
+                </section>
+
+                <section className="definition-2">
+                    <Row>
+                        <Col md={5}>
+                            <div className="img-container">
+                                <Col>
+                                    <img className="img-def-2" src={img_home_1} alt="Sobre Nosotros" />
+                                </Col> 
+                           </div>
+                        </Col>
+                        <Col md={7} >
+                                <h2 className="definition-subtittle">Tipos de Lupus</h2>
+                                <p>Alrededor del mundo existen cerca de 5 millones de personas con algún tipo de Lupus, pero no todos tendrán el mismo tipo de Lupus.
+                                </p>
+                        </Col>  
+                    </Row>
+                </section>
+
+                <section className="definition-3">
+                    <Row>
+                        <Col md={12}>
+                            <ul className="definition-ul">
+                                <li><h4>Lupus Eritematoso, inducido por medicamentos</h4>
+                                    Este tipo de lupus se puede desarrollar después de haber ingeridos ciertos medicamentos. Los síntomas desaparecen en pocas semanas  o 
+                                    meses al interrumpir el tratamiento y no llega a atacar órganos internos, pero se pueden presentar 
+                                    inflamaciones en algunas zonas del cuerpo.
+                                    Es un Lupus muy poco prevalente, y menos del 5% de todos los pacientes de Lupus tienen este tipo.
+                                    </li><br></br>
+                                <li><h4>Lupus Eritematoso cutáneo o Discoide</h4>
+                                    Solo afecta a la piel y se le identifica por las ronchas, erupciones o eritemas que aparecen en la cara, cuello y piel del cuero cabelludo, o en zonas generalmente expuestas al sol.
+                                    Lupus Eritematoso Cutáneo, y pueden tratarse con un Inmunodermatologo o Dermatólogo.
+                                    </li><br></br>
+                                <li><h4>Lupus Eritematoso sistémico (LES)</h4>
+                                    Ataca a cualquier sistema u órgano del cuerpo, ya sea la piel, articulaciones, pulmones, sangre, vasos sanguíneos, corazón, riñones, hígado, cerebro y sistema nervioso.
+                                    Cuando hablamos de “Lupus”, sin ponerle ningún apellido o calificador, nos estamos refiriendo a este tipo de Lupus.
+                                    </li>
+                            </ul>   
                         </Col>
                     </Row>
                 </section>
