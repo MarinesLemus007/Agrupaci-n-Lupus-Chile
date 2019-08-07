@@ -12,7 +12,7 @@ class AboutUs extends React.Component {
     render(){
         return (
             <div className="AboutUs">
-                <Navbar/>
+                <NavBar/>
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
                 <Breadcrumb.Item href='/Quienes-Somos'>
@@ -84,7 +84,7 @@ class AboutUs extends React.Component {
                 </section>
                 <Footer/>
                 
-            </>
+            </div>
         )
     }
 }
