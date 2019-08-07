@@ -39,3 +39,23 @@ body {
     background-color: #7E2C81;
     background:white;
 }
+
+.Submit{
+    margin: 3% 0 0 0;
+    padding: 3%;
+    border: solid 3px;
+    border-color: #7E2C81;
+}
+
+.submit{
+    background-color: #7E2C81;
+ border:#7E2C81;
+
+
+}
+
+.form-group.col-md-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

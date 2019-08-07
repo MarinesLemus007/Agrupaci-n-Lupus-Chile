@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import "../styles/AboutUs.css";
-import NavBar from '../components/Navbar';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Form from 'react-bootstrap/Form'
@@ -15,12 +15,8 @@ class AboutUs extends React.Component {
     render(){
         return (
             <div className="AboutUs">
-<<<<<<< HEAD
                 <Navbar/>
 
-=======
-                <NavBar/>
->>>>>>> 284fea42db1f1684d466c71d9740ee193c356e1e
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
                 <Breadcrumb.Item href='/Quienes-Somos'>
@@ -89,36 +85,36 @@ class AboutUs extends React.Component {
                             </Col>
                         </Row>
                         <Form>
+                            <div className="Submit" >                         
+                                <h3>Sé el primero en enterarte de nuestras noticias y eventos , Suscribete</h3> 
+                                <Row>                         
+                                    <div className="form-group col-md-5">
+                                        <Form.Group controlId="formBasicEmail">
+                                            <Form.Label>Nombre</Form.Label>
+                                            <Form.Control type="Username" placeholder="Username" />
+                                            <Form.Text className="text-muted">
+                                                Nunca compartiremos tus datos personales.
+                                            </Form.Text>
+                                        </Form.Group>
+                                    </div>
 
-   <Row>                         
-       <div className="form-group col-md-5">
-  <Form.Group controlId="formBasicEmail">
-    <Form.Label>Nombre</Form.Label>
-    <Form.Control type="Username" placeholder="Username" />
-    <Form.Text className="text-muted">
-      Nunca compartiremos tus datos personales.
-    </Form.Text>
-  </Form.Group>
-  </div>
-
-  <div className="form-group col-md-5">
-  <Form.Group controlId="formBasicPassword">
-    <Form.Label>Email</Form.Label>
-    <Form.Control type="Email address" placeholder="Email address" />
-  </Form.Group>
-  </div>
-  <div className="form-group col-md-2">
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
-  </div>
-  </Row>
-
-</Form>
+                                    <div className="form-group col-md-5">
+                                        <Form.Group controlId="formBasicPassword">
+                                            <Form.Label>Email</Form.Label>
+                                            <Form.Control type="Email address" placeholder="Email address" />
+                                        </Form.Group>
+                                    </div>
+                                    <div className="form-group col-md-2">
+                                        <Button className ="submit"type="submit">
+                                            Submit
+                                        </Button>
+                                    </div>
+                                </Row>
+                            </div>
+                        </Form>
                     </Container>
                 </section>
                 <Footer/>
-                
             </div>
         )
     }
