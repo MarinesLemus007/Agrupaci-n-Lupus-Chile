@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import "../styles/AboutUs.css";
-import Navbar from '../components/Navbar';
+import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
@@ -83,7 +83,8 @@ class AboutUs extends React.Component {
                     </Container>
                 </section>
                 <Footer/>
-            </div>
+                
+            </>
         )
     }
 }

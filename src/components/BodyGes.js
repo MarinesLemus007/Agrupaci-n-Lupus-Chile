@@ -3,6 +3,7 @@ import law from '../img/derechos.jpg';
 import '../GesView.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BreadCrumb from '../components/BreadCrumb';
 
 class BodyGes extends React.Component{
 
@@ -13,7 +14,7 @@ class BodyGes extends React.Component{
                     <Row>
                         <Col sm={12}>
                             <div className='line-migas'>
-                                <p> Inicio > ¿Cómo costear tu enfermedad > Ges</p>
+                                <p> <BreadCrumb/> </p>
                             </div>    
                         </Col>
                     </Row>
@@ -39,27 +40,15 @@ class BodyGes extends React.Component{
                         </Col>
                         <Col sm={4}>
                             <div className='ges-img'>
-                                <img
-                                    src={law}
-                                    width="200"
-                                    height="200"
-                                    className="justify-content-md-center"
-                                    alt="Derechos"
-                                />
+                                <img src={law} className="img-container" alt="Derechos" />
                             </div> 
                         </Col>
                     </Row>
                     
                     <Row>
                         <Col sm={4}>
-                            <div className='ges-img-two'>
-                                <img
-                                    src={law}
-                                    width="200"
-                                    height="200"
-                                    className="justify-content-md-center"
-                                    alt="Derechos"
-                                />
+                            <div className='ges-img'>
+                                <img src={law} className="img-container" alt="Derechos" />
                             </div> 
                         </Col>
                         <Col sm={8}>
@@ -88,14 +77,8 @@ class BodyGes extends React.Component{
                             </div>
                         </Col>
                         <Col sm={4}>
-                            <div className='ges-img-three'>
-                                <img
-                                    src={law}
-                                    width="200"
-                                    height="200"
-                                    className="justify-content-md-center"
-                                    alt="Derechos"
-                                />
+                            <div className='ges-img'>
+                                <img src={law} className="img-container" alt="Derechos" />
                             </div> 
                         </Col>
                     </Row>
@@ -119,11 +102,13 @@ class BodyGes extends React.Component{
                     <Row>
                         <Col sm={12}>
                             <div className='ges-line-seven'>
+
                                 <lu>
-                                    <li><a href="#">Link 1</a></li>
-                                    <li><a href="#">Link 2</a></li>
-                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="/#">Link 1</a></li>
+                                    <li><a href="/#">Link 2</a></li>
+                                    <li><a href="/#">Link 3</a></li>
                                 </lu>
+
                             </div>    
                         </Col>
                     </Row>

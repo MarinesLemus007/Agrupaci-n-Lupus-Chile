@@ -2,11 +2,11 @@ import React from 'react';
 import '../styles/homeView.css';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Row, Container } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import img_home_1 from '../img/img_home_1.jpg';
 import IndexCarousel from '../components/IndexCarousel';
 import ButtonIndex from '../components/ButtonIndex';
+import BreadCrumb from '../components/BreadCrumb';
 
 class HomeView extends React.Component{
 
@@ -15,19 +15,23 @@ class HomeView extends React.Component{
             <>
                
                 <NavBar/>
+                <BreadCrumb/>
                 <Container>
-                <section className="about-us">
+                <section className="testimony">
                     <Row>
                         <Col md={7}>
                             
-                                <h1 className="about-us-tittle">Sobre Nosotros</h1>
-                                <p>Agrupación Lupus Chile busca ser una fuente continua de información 
-                                y apoyo a los pacientes y familiares que deben vivir con esta enfermedad</p>
-                            
+                                <h1 className="testimony-tittle">Testimonios</h1>
+                                <p>Te invitamos a conocer testimonios reales de pacientes y familias que 
+                                    conviven a diario con Lupus. 
+                                </p>
+                                <div className="div-testimony">
+                                <a className="a-testimony" href="/testimonios">>Leer mas</a>
+                                </div>
                         </Col>  
                         <Col md={5}>
                             <div className="img-container">
-                                <img className="img_home" src={img_home_1} alt="Sobre Nosotros" />
+                                <img className="img-home" src={img_home_1} alt="Sobre Nosotros" />
                             </div>
                         </Col>
                     </Row>
@@ -44,7 +48,7 @@ class HomeView extends React.Component{
                         </Col>
                     </Row>
                 </section>
-                <section className="get-involved">
+                <div className="get-involved">
                     <Row>
                         <Col>
                             
@@ -66,9 +70,11 @@ class HomeView extends React.Component{
                             <ButtonIndex class="button" name="Dona" link="dona"/>
                         </Col>
                     </Row>
-                </section>
-                <Footer/>
+
+                </div>
+
                 </Container>
+                <Footer/>
             </>
         )
     }
