@@ -2,9 +2,40 @@
 body {
   margin: 0;
   font-family: 'Shanti', sans-serif;
-  background:white;
-}
+ }
 
 .agrupacion{
     width: 100%
+} 
+
+.AboutUsfirth p {
+    padding: 64px 0 64px 0;
+}
+.AboutUsSecond p{
+    padding: 64px 0 64px 0;
+}
+.AboutUsthird p {
+    padding: 64px 0 64px 0;
+}
+.AboutUsthird {
+    padding: 0 0 128px 0;
+}
+.linksOfInterestTitle h2 {
+    padding: 0 0 32px 0;
+}
+
+.linksOfInterest a:link {
+    color: #7E2C81;
+}
+.linksOfInterest a:visited {
+    color: grey;
+}
+.linksOfInterest a:active {
+    color: #7E2C81;
+    background-color: white;
+}
+.linksOfInterest a:hover {
+    color: white;
+    background-color: #7E2C81;
+    background:white;
 }

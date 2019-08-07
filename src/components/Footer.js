@@ -16,7 +16,7 @@ import email_white from "../img/iconosPng/email_white.png";
 class Footer extends React.Component {
     render(){
         return <div className="footer">
-            <Container>
+            <Container fluid>
                 <Row>
                     <Col sm={4}>
                     <div className="contact">   
@@ -34,7 +34,7 @@ class Footer extends React.Component {
                                 <img className="footer_logo_whatsapp" src={whatsapp_white} alt="logo Twitter" />
                             </Col>
                             <Col sm={9} >
-                                <p>+56 9 93058454</p><br/>
+                                <p>+56 9 93058454</p>
                             </Col>
                         </Row>
                         <Row>
@@ -42,7 +42,7 @@ class Footer extends React.Component {
                                 <img className="footer_logo_email" src={email_white} alt="logo Twitter" />
                             </Col>
                             <Col sm={9} >
-                                <p>contacto@agrupacionlupuschile.cl</p><br/>
+                                <p>contacto@agrupacionlupuschile.cl</p>
                             </Col>
                         </Row>
                     </div>
