@@ -50,18 +50,18 @@ class Footer extends React.Component {
                     
                     <Col sm={4}>
                         <div className="info">   
-                            <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"> ¿Qué es el Lupus?</a>
+                            <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <a className="nav-link active" href="/#"> ¿Qué es el Lupus?</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">¿Cómo costear tu enfermedad?</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#">¿Cómo costear tu enfermedad?</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">¿Quienes somos?</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#">¿Quienes somos?</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Dona</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#">Dona</a>
                             </li>
                             </ul>
                         </div>
