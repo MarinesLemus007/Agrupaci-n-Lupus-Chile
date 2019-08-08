@@ -19,7 +19,7 @@ class HomeView extends React.Component{
                     <Row>
                         <Col md={7}>
                             
-                                <h1 className="testimony-tittle">Testimonios</h1>
+                                <h1 className="testimony-title">Testimonios</h1>
                                 <p>Te invitamos a conocer testimonios reales de pacientes y familias que 
                                     conviven a diario con Lupus. 
                                 </p>
@@ -37,7 +37,7 @@ class HomeView extends React.Component{
                 <section className="work-approach">
                     <Row>
                         <Col>
-                        <h1 className="work-approach-tittle">Enfoque de trabajo</h1>
+                        <h1 className="work-approach-title">Enfoque de trabajo</h1>
                         </Col>
                     </Row>
                     <Row>
@@ -50,7 +50,7 @@ class HomeView extends React.Component{
                     <Row>
                         <Col>
                             
-                                    <h1 className="get-involved-tittle">Involúcrate</h1>
+                                    <h1 className="get-involved-title">Involúcrate</h1>
                                     <p>¡A Lupus Chile nunca le sobran manos! Si quieres apoyarnos con tu trabajo 
                                         o aportes no dudes en contactarnos.
                                     </p>
@@ -58,14 +58,17 @@ class HomeView extends React.Component{
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={4}>
-                            <ButtonIndex class="button" name="Suscribete" link="suscribete"/>
+                        <Col md={1}>
                         </Col>
                         <Col md={4}>
-                            <ButtonIndex class="button" name="Participa" link="participa"/>
+                            <ButtonIndex class="button" name="Participa" link="suscribete"/>
+                        </Col>
+                        <Col md={2}>
                         </Col>
                         <Col md={4}>
                             <ButtonIndex class="button" name="Dona" link="dona"/>
+                        </Col>
+                        <Col md={1}>
                         </Col>
                     </Row>
 
