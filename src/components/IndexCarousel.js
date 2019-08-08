@@ -24,10 +24,12 @@ class IndexCarousel extends Component {
                         </Col>
                         <Col md={7}>
                             <h2 className="carousel-title">Importación de medicamentos</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>Sabemos lo complejo que puede ser sobrellevar una enfermedad, y más aún, costearla.
+                            Enfermedades crónicas como el Lupus significan constantes gastos en consultas médicas, exámenes y evaluaciones, terapias,
+                            y medicamentos.</p>
+                            <div className="div-read-more">
+                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
+                                </div>
                         </Col>
                     </Row>
             </Carousel.Item>
@@ -42,10 +44,12 @@ class IndexCarousel extends Component {
                         </Col>
                         <Col md={7}>
                             <h2 className="carousel-title">Apoyo a pacientes y familiares</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>En Agrupación Lupus Chile trabajamos para apoyar a los pacientes y a sus familias en el duro camino de la enfermedad, y queremos donde puedan compartir pacientes, 
+                                familiares y amigos del Lupus dando ayuda moral, y ser un oído a sus problemas.
+                            </p>
+                                <div className="div-read-more">
+                                <a className="a-read-more" href="/ges">>Leer mas</a>
+                                </div>
                         </Col>
                     </Row>
             </Carousel.Item>
@@ -59,11 +63,13 @@ class IndexCarousel extends Component {
                             />
                         </Col>
                         <Col md={7}>
-                            <h2 className="carousel-title">Defenza de derechos</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <h2 className="carousel-title">Defensa de derechos</h2>
+                            <p>El GES es un sistema de cobertura de ciertos problemas de salud para dotarlos de garantías de acceso, 
+                                oportunidad, protección financiera y calidad, por lo que todas las personas que estén en esa condición 
+                                de acceso al GES pueden hacer valer sus garantías como derechos.</p>
+                                <div className="div-read-more">
+                                <a className="a-read-more" href="/ges">>Leer mas</a>
+                                </div>
                         </Col>
                     </Row>
             </Carousel.Item>
@@ -78,10 +84,11 @@ class IndexCarousel extends Component {
                         </Col>
                         <Col md={7}>
                             <h2 className="carousel-title">Educación</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>Como todos los años, el mes de Mayo es el mes del Lupus, y el día 10 es el #DiaMundialDelLupus, 
+                                donde todas las organizaciones de pacientes del mundo están invitadas a participar en la difusión de la enfermedad y en la creación de conciencia.</p>
+                                <div className="div-read-more">
+                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
+                                </div>
                         </Col>
                     </Row>
             </Carousel.Item>

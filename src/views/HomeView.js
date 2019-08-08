@@ -24,8 +24,8 @@ class HomeView extends React.Component{
                                 <p>Te invitamos a conocer testimonios reales de pacientes y familias que 
                                     conviven a diario con Lupus. 
                                 </p>
-                                <div className="div-testimony">
-                                <a className="a-testimony" href="/testimonios">>Leer mas</a>
+                                <div className="div-read-more">
+                                <a className="a-read-more" href="/">>Leer mas</a>
                                 </div>
                         </Col>  
                         <Col md={5}>
