@@ -22,7 +22,7 @@ nav > .container{
 .dropdown.nav-item,.nav-link{
   align-self: center;
 }
-.nav-link{
+nav > div > div > div > a, nav > div > div > div >div > a{
   color:black !important;
   font-family: 'Shanti', sans-serif;
   font-size: 16px;
