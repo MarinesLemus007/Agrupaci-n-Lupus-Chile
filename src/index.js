@@ -8,6 +8,7 @@ import GesView from './views/GesView';
 import AboutUs from './views/AboutUs';
 import Donation from './views/Donation';
 import Submit from './views/Submit';
+import ContactView from './views/ContactView';
 
 
 
@@ -23,6 +24,7 @@ const routing = (
       <Route path='/Quienes-Somos' component={AboutUs} />
       <Route path='/Donar' component={Donation} />
       <Route path='/Suscribe' component={Submit} />
+      <Route path='/Contacto' component={ContactView} />
 
 
 

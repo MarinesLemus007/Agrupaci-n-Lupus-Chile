@@ -20,11 +20,11 @@ body {
 }
 
 
-.definition-tittle{
+.definition-title{
     font-weight: bolder;
     margin-bottom: 24px;
 }
-.definition-subtittle,.definition-ul > li > h4{
+.definition-subtitle,.definition-ul > li > h4{
     font-size:25px;
     font-weight: bolder;
 }

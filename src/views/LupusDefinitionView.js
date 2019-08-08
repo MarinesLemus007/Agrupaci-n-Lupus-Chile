@@ -3,7 +3,11 @@ import '../styles/lupusDefinitionView.css';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Row, Col, Container } from 'react-bootstrap';
-import img_home_1 from '../img/img_home_1.jpg';
+import img_def_1 from '../img/img_def_1.jpg';
+import img_def_2 from '../img/img_def_2.jpg';
+import img_def_3 from '../img/img_def_3.jpg';
+import img_def_4 from '../img/img_def_4.jpg';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 class LupusDefinition extends React.Component{
 
@@ -11,11 +15,17 @@ class LupusDefinition extends React.Component{
         return (
             <>
             <NavBar/>
+            <Breadcrumb>
+                <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
+                <Breadcrumb.Item active href='/Que-es-el-lupus'>
+                ¿Qué es el lupus?
+                </Breadcrumb.Item>
+                </Breadcrumb>
             <Container>
                 <section className="definition-0">
                     <Row>
                         <Col>
-                            <h1 className="definition-tittle">¿Qué es el Lupus?</h1>
+                            <h1 className="definition-title">¿Qué es el Lupus?</h1>
                             <p>El Lupus es una enfermedad autoinmune, inflamatoria crónica sin cura.</p>
                         </Col>
                     </Row>
@@ -24,7 +34,7 @@ class LupusDefinition extends React.Component{
                 <section className="definition">
                     <Row>
                         <Col md={7} >
-                                <h2 className="definition-subtittle">¿Cómo afecta al organismo?</h2>
+                                <h2 className="definition-subtitle">¿Cómo afecta al organismo?</h2>
                                 <p>En un organismo con Lupus las defensas se confunden por una causa aún
                                     no del todo clara, desconociendo órganos y tejidos propios 
                                     (se auto-ataca). Este auto-ataque puede dañar articulaciones, piel, 
@@ -35,7 +45,7 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-1" src={img_home_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-1" src={img_def_1} alt="Sobre Nosotros" />
                                 </Col>
                             </div>
                         </Col>
@@ -47,12 +57,12 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_home_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_2} alt="Sobre Nosotros" />
                                 </Col> 
                            </div>
                         </Col>
                         <Col md={7} >
-                                <h2 className="definition-subtittle">¿Qué significa que la enfermedad sea crónica?</h2>
+                                <h2 className="definition-subtitle">¿Qué significa que la enfermedad sea crónica?</h2>
                                 <p>Que la enfermedad sea crónica sin cura significa que los <strong>signos y síntomas tienden a 
                                     durar más de seis semanas</strong> y, a menudo durante muchos años, y que no tendremos una cura para 
                                     la enfermedad: desde el día en que nos diagnostiquen, tendremos que aprender a <strong>vivir con Lupus.</strong>
@@ -64,7 +74,7 @@ class LupusDefinition extends React.Component{
                 <section className="definition">
                     <Row>
                         <Col md={7} >
-                                <h2 className="definition-subtittle">¿Qué son los “brotes” y las “remisiones”?</h2>
+                                <h2 className="definition-subtitle">¿Qué son los “brotes” y las “remisiones”?</h2>
                                 <p>Los <strong>brotes</strong> o crisis son en períodos de activación donde habrá mayor presencia de síntomas o daño (inflamación, problemas 
                                 renales, u otros). Las  <strong>remisiones</strong> en período de inactividad, podrán resultar en una ausencia de síntoma, pero debe tener en cuenta que la enfermedad sigue presente.
                                 Esta ausencia de síntoma puede deberse al efecto de los medicamento, por lo que no sentir dolor, o no tener inflamación, no son motivos para dejar los medicamentos 
@@ -74,7 +84,7 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_home_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_3} alt="Sobre Nosotros" />
                                 </Col>
                             </div>
                         </Col>
@@ -86,12 +96,12 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_home_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_4} alt="Sobre Nosotros" />
                                 </Col> 
                            </div>
                         </Col>
                         <Col md={7} >
-                                <h2 className="definition-subtittle">¿Cuáles son las causas del Lupus?</h2>
+                                <h2 className="definition-subtitle">¿Cuáles son las causas del Lupus?</h2>
                                 <p>
                                     La o las causas del Lupus son <strong>desconocidas</strong>. Mientras los científicos creen que existe una predisposición genética para la enfermedad, también es conocido 
                                     que los <u>factores ambientales tienen un papel muy importante</u> en la aparición del padecimiento. Algunos de estos factores ambientales son: infecciones, antibióticos, 
@@ -116,7 +126,7 @@ class LupusDefinition extends React.Component{
                 <section className="definition-2">
                     <Row>
                         <Col md={7} >
-                                <h2 className="definition-subtittle">¿Cuales son los síntomas del Lupus?</h2>
+                                <h2 className="definition-subtitle">¿Cuales son los síntomas del Lupus?</h2>
                                 <p>Los síntomas del Lupus varían enormemente de una persona a otra. Aunque el Lupus puede afectar 
                                     cualquier parte del organismo, la mayoría de las personas presentan síntomas solamente en algunos 
                                     órganos.A continuación la lista de los síntomas más comunes del Lupus y el porcentaje de pacientes 
@@ -126,7 +136,7 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_home_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_1} alt="Sobre Nosotros" />
                                 </Col>
                             </div>
                         </Col>
@@ -164,12 +174,12 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_home_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_1} alt="Sobre Nosotros" />
                                 </Col> 
                            </div>
                         </Col>
                         <Col md={7} >
-                                <h2 className="definition-subtittle">Tipos de Lupus</h2>
+                                <h2 className="definition-subtitle">Tipos de Lupus</h2>
                                 <p>Alrededor del mundo existen cerca de 5 millones de personas con algún tipo de Lupus, pero no todos tendrán el mismo tipo de Lupus.
                                 </p>
                         </Col>  
