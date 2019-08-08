@@ -10,13 +10,6 @@ class BodyQuestions extends React.Component{
         return (
             <section>
                 <Container>
-                    <Row>
-                        <Col sm={12}>
-                            <div className='line-one-questions'>
-                                <p>Inicio > Preguntas frecuentes></p>
-                            </div> 
-                        </Col>
-                    </Row>
 
                     <Row>
                         <Col sm={12}>
