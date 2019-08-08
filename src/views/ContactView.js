@@ -7,6 +7,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import pin from "../img/iconosPng/pin_purple.png";
 import whatsapp from "../img/iconosPng/whatsapp_purple.png";
 import email from "../img/iconosPng/email_purple.png";
+import Submit from '../views/Submit'
 class ContactView extends React.Component{
    
     render(){
@@ -62,6 +63,7 @@ class ContactView extends React.Component{
                     </Col>
                     </Row>
             </Container>
+            <Submit/>
                 <Footer/>
             </>
         )

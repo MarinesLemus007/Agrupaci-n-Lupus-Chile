@@ -61,12 +61,12 @@ class HomeView extends React.Component{
                         <Col md={1}>
                         </Col>
                         <Col md={4}>
-                            <ButtonIndex class="button" name="Participa" link="suscribete"/>
+                            <ButtonIndex class="button" name="Participa" link="Donar"/>
                         </Col>
                         <Col md={2}>
                         </Col>
                         <Col md={4}>
-                            <ButtonIndex class="button" name="Dona" link="dona"/>
+                            <ButtonIndex class="button" name="Dona" link="Donar"/>
                         </Col>
                         <Col md={1}>
                         </Col>

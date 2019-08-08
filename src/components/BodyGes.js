@@ -9,16 +9,11 @@ class BodyGes extends React.Component{
 
     render(){
         return (
+            <>
+        <BreadCrumb/>
             <section>
                 <Container>
-                    <Row>
-                        <Col sm={12}>
-                            <div className='line-migas'>
-                                <p> <BreadCrumb/> </p>
-                            </div>    
-                        </Col>
-                    </Row>
-               
+                    
                     <Row>
                         <Col sm={12}>
                             <div className='ges-line'>
@@ -114,6 +109,7 @@ class BodyGes extends React.Component{
                     </Row>
                 </Container>
             </section>
+            </>
         )
     }
 }

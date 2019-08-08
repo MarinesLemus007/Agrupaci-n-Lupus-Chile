@@ -17,9 +17,7 @@ class AboutUs extends React.Component {
 
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
-                <Breadcrumb.Item href='/Quienes-Somos'>
-                Quiénes Somos?
-                </Breadcrumb.Item>
+                
                 <Breadcrumb.Item active>Quiénes Somos?</Breadcrumb.Item>
                 </Breadcrumb>
                 <section>

@@ -44,6 +44,7 @@ class NavBar extends React.Component{
                         </NavDropdown>
                         <Nav.Link href="/Quienes-Somos">¿Quiénes somos?</Nav.Link>
                         <Nav.Link href="/Preguntas-Frecuentes">Preguntas Frecuentes</Nav.Link>
+                        <Nav.Link href="/Contacto">Contácto</Nav.Link>
                         <Nav.Link href="/Donar">Dona</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
