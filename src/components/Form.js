@@ -1,6 +1,6 @@
 import React from 'react';
 import {Form, Button, Container, Row, Col} from 'react-bootstrap';
-import '../Form.css';
+import './styles/form.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class FormSubmit extends React.Component{

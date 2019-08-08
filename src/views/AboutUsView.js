@@ -2,12 +2,12 @@ import React from "react";
 import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
-import "../styles/AboutUs.css";
+import "./styles/aboutUsView.css";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
-import Submit from './Submit.js'
+import Submit from '../components/Submit.js'
 
 class AboutUs extends React.Component {
     render(){
@@ -73,7 +73,7 @@ class AboutUs extends React.Component {
                             <Col sm={12}>
                                 <div className='linksOfInterest'>
                                     <lu>
-                                        <li><a href="">Link 1</a></li>
+                                        <li><a href="/">Link 1</a></li>
                                         <li><a href="/Donar">Link 2</a></li>
                                         <li><a href="/Suscribe">Link 3</a></li>
                                     </lu>

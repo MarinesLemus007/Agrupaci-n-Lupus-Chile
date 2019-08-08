@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/lupusDefinitionView.css';
+import './styles/lupusDefinitionView.css';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Row, Col, Container } from 'react-bootstrap';
@@ -7,7 +7,7 @@ import img_def_1 from '../img/img_def_1.jpg';
 import img_def_2 from '../img/img_def_2.jpg';
 import img_def_3 from '../img/img_def_3.jpg';
 import img_def_4 from '../img/img_def_4.jpg';
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Breadcrumb from '../components/BreadCrumb';
 
 class LupusDefinition extends React.Component{
 
@@ -15,12 +15,7 @@ class LupusDefinition extends React.Component{
         return (
             <>
             <NavBar/>
-            <Breadcrumb>
-                <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
-                <Breadcrumb.Item active href='/Que-es-el-lupus'>
-                ¿Qué es el lupus?
-                </Breadcrumb.Item>
-                </Breadcrumb>
+            <Breadcrumb name="¿Que es Lupus?"/>
             <Container>
                 <section className="definition-0">
                     <Row>

@@ -1,6 +1,6 @@
 import React from 'react';
 import law from '../img/derechos.jpg';
-import '../GesView.css';
+import './styles/bodyGes.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BreadCrumb from '../components/BreadCrumb';
@@ -10,7 +10,7 @@ class BodyGes extends React.Component{
     render(){
         return (
             <>
-        <BreadCrumb/>
+        <BreadCrumb name="¿Qué es el Ges?" />
             <section>
                 <Container>
                     

@@ -4,9 +4,8 @@ import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
-import Submit from "../views/Submit.js"
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import "../styles/FriendsForm.css"
+import "./styles/friendsForm.css"
 // import facebook_white from "../img/iconosPng/facebook_white.png";
 
 
