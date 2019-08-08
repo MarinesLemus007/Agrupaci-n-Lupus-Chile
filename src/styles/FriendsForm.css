@@ -1,0 +1,35 @@
+.FriendForm{
+    padding: 5%;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 24px;
+    padding-left: 28px;
+}
+.form-check {
+    padding: 3%;
+}
+.Breadcrumb{
+    padding-bottom: 32px;
+}
+.FriendForm h1{
+    padding-bottom: 32px;
+}
+
+.FriendForm p{
+    padding-bottom: 48px;
+
+}
+.FriendForm h2{
+    padding-bottom: 32px;
+
+}
+.timeContribution h2{
+    padding-bottom: 32px;
+}
+.btn{
+    background-color: #7E2C81;
+    border-color: #7E2C81;
+    width: 200px;
+    float: right;
+}

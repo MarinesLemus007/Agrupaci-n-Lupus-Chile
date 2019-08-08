@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
-
+import Submit from './Submit.js'
 
 class AboutUs extends React.Component {
     render(){
@@ -85,6 +85,7 @@ class AboutUs extends React.Component {
                         
                     </Container>
                 </section>
+                <Submit/>
                 <Footer/>
             </div>
         )

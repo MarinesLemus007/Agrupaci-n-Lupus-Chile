@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/Navbar';
 import FriendsForm from '../components/FriendsForm';
 import Footer from '../components/Footer'
+import Submit from './Submit.js';
 
 class Donation extends React.Component{
    
@@ -10,6 +11,7 @@ class Donation extends React.Component{
             <>
                 <NavBar/>
                 <FriendsForm/>
+                <Submit/>
                 <Footer/>
             </>
         )
