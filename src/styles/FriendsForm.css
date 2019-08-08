@@ -1,0 +1,11 @@
+.FriendForm{
+    padding: 5%;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 24px;
+    padding-left: 28px;
+}
+.form-check {
+    padding: 3%;
+}

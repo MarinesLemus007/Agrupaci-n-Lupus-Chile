@@ -85,6 +85,7 @@ class AboutUs extends React.Component {
                         
                     </Container>
                 </section>
+                
                 <Footer/>
             </div>
         )
