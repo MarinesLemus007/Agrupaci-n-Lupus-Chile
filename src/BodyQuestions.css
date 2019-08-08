@@ -1,0 +1,11 @@
+
+.line-two-questions{
+    margin-top: 32px;
+}
+.line-three-questions, .line-four-questions, .line-six-questions, .line-eight-questions{
+    margin-top: 64px;
+}
+
+.line-ten-questions{
+    margin-top: 128px;
+}
