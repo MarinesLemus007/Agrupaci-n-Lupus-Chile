@@ -92,18 +92,21 @@ class FriendsForm extends React.Component {
                             </Col>
                         
                             <Col sm={6}>
-                            <Form.Group as={Col} controlId="formGridaddress">
-                                <Form.Label>Dirección</Form.Label>
-                                <Form.Control type="address" placeholder="Ingrese su calle número y Comuna" />
-                            </Form.Group>
-                            <Form.Group as={Col} controlId="formGridPhone">
-                                <Form.Label>Celular</Form.Label>
-                                <Form.Control type="phone" placeholder="9 xxxxxxxx" />
-                            </Form.Group>
-                            <Form.Group as={Col} controlId="formGridEmail">
-                                <Form.Label>Nombre</Form.Label>
-                                <Form.Control type="email" placeholder="Ingrese su correo " />
-                            </Form.Group>
+                                <Form.Group as={Col} controlId="formGridaddress">
+                                    <Form.Label>Dirección</Form.Label>
+                                    <Form.Control type="address" placeholder="Ingrese su calle número y Comuna" />
+                                </Form.Group>
+                                <Form.Group as={Col} controlId="formGridPhone">
+                                    <Form.Label>Celular</Form.Label>
+                                    <Form.Control type="phone" placeholder="9 xxxxxxxx" />
+                                </Form.Group>
+                                <Form.Group as={Col} controlId="formGridEmail">
+                                    <Form.Label>Nombre</Form.Label>
+                                    <Form.Control type="email" placeholder="Ingrese su correo " />
+                                </Form.Group>
+                                <Button className="btn" type="button">
+                                    Donar
+                                </Button>
                             </Col>
                         </Form.Group>
                     </div>
@@ -150,8 +153,8 @@ class FriendsForm extends React.Component {
                                 <Form.Control type="availability" placeholder="Ej: Lunes entre las 12:00 y las 17:00" />
                             </Form.Group>
                         </Form.Row>
-                        <Button variant="primary" type="submit">
-                            Submit
+                        <Button className="btn" type="button">
+                            Participa
                         </Button>
                     </div>
                 </Form>

@@ -33,7 +33,7 @@ class Submit extends React.Component {
                             </div>
                             <div className="form-group col-md-2">
                                 <Button className ="submit"type="submit">
-                                    Submit
+                                    Suscríbete
                                 </Button>
                             </div>
                         </Row>
