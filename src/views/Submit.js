@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import { Row } from 'react-bootstrap';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import Navbar from '../components/Navbar';
+import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 
@@ -12,7 +12,7 @@ class Submit extends React.Component {
     render(){
         return (
             <div className="Submit">
-            <Navbar/>
+            <NavBar/>
 
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>

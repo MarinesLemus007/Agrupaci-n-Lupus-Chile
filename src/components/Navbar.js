@@ -42,9 +42,9 @@ class NavBar extends React.Component{
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown>
-                     
-                        
                         <Nav.Link href="/Quienes-Somos">¿Quiénes somos?</Nav.Link>
+                        <Nav.Link href="/Preguntas-Frecuentes">Preguntas Frecuentes</Nav.Link>
+                        <Nav.Link href="/Donar">Dona</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
