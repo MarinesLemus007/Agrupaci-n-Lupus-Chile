@@ -1,7 +1,8 @@
 import React from 'react';
-import '../styles/homeView.css';
+import './styles/homeView.css';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Submit from '../components/Submit';
 import { Row, Col, Container } from 'react-bootstrap';
 import img_home_1 from '../img/img_home_1.jpg';
 import IndexCarousel from '../components/IndexCarousel';
@@ -73,7 +74,7 @@ class HomeView extends React.Component{
                     </Row>
 
                 </div>
-
+                <Submit/>
                 </Container>
                 <Footer/>
             </>

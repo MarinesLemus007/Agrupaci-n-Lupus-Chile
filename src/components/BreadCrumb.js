@@ -1,6 +1,8 @@
 import React from 'react';
+import './styles/breadCrumb.css';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class BreadCrumb extends React.Component{
 
@@ -11,8 +13,8 @@ class BreadCrumb extends React.Component{
                     Inicio
                 </Breadcrumb.Item>
                
-                <Breadcrumb.Item active href="/Ges">
-                    ¿Qué es el Ges?
+                <Breadcrumb.Item active >
+                    {this.props.name}
                 </Breadcrumb.Item>
                 
             </Breadcrumb>

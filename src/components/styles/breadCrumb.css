@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.breadcrumb{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #6c1a6f;
+}
+
+.breadcrumb-item > a {
+    color: #6c1a6f;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
-import "./styles/Footer.css";
+import "./styles/footer.css";
 import facebook_white from "../img/iconosPng/facebook_white.png";
 import youtube_white from "../img/iconosPng/youtube_white.png";
 import twitter_white from "../img/iconosPng/twitter_white.png";

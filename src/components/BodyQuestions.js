@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import '../BodyQuestions.css';
+import './styles/bodyQuestions.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FormSubmit from '../components/Form';
 

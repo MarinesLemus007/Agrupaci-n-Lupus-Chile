@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from "react-router-dom"
-import './styles/homeView.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import LupusDefinition from './views/LupusDefinitionView';
 import HomeView from './views/HomeView';
 import GesView from './views/GesView';
-import AboutUs from './views/AboutUs';
-import Donation from './views/Donation';
-import Submit from './views/Submit';
+import AboutUs from './views/AboutUsView';
+import Donation from './views/DonationView';
 import ContactView from './views/ContactView';
-import FrequentQuestions from './views/FrequentQuestions';
+import FrequentQuestions from './views/FrequentQuestionsView';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -22,7 +20,6 @@ const routing = (
       <Route path='/Quienes-Somos' component={AboutUs} />
       <Route path='/Donar' component={Donation} />
       <Route path='/Contacto' component={ContactView} />
-      <Route path='/suscribete' component={Submit} />
       <Route path='/Preguntas-Frecuentes' component={FrequentQuestions} />
     </div>
   </Router>
