@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../img/logo.png';
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import './styles/navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,7 +13,7 @@ class NavBar extends React.Component{
 
             <Navbar bg="white" expand="lg">
                 <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand as={Link} to="/">
                     <img
                         src={logo}
                         width="50"
@@ -24,9 +25,10 @@ class NavBar extends React.Component{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
+                        
             
-
-                        <Nav.Link href="/Que-es-el-lupus" style={
+                        
+                        <Nav.Link as={Link} to="/Que-es-el-lupus" style={
                             this.props.state === 'lupus-definition' ? {borderBottom: '#7E2C81  3px solid'}:
                         {borderBottom:'none'}}
                         >¿Qué es el Lupus?</Nav.Link>
@@ -34,10 +36,10 @@ class NavBar extends React.Component{
                         <NavDropdown style={
                             this.props.state === 'ges' ? {borderBottom: '#7E2C81  3px solid'}:
                         {borderBottom:'none'}} title="¿Cómo costear tu enfermedad?" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/ges">
+                        <NavDropdown.Item as={Link} to="/ges">
                                 ¿Qué es el Ges?
                             </NavDropdown.Item>
-                            
+
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/ges">Ley Ricarte Soto</NavDropdown.Item>
             
@@ -45,18 +47,18 @@ class NavBar extends React.Component{
                          
             
                         </NavDropdown>
-                        <Nav.Link href="/Quienes-Somos" style={
+                        <Nav.Link as={Link} to="/Quienes-Somos" style={
                             this.props.state === 'about-us' ? {borderBottom: '#7E2C81  3px solid'}:
                         {borderBottom:'none'}}>¿Quiénes somos?</Nav.Link>
 
-                        <Nav.Link href="/Preguntas-Frecuentes" style={
+                        <Nav.Link  as={Link} to="/Preguntas-Frecuentes" style={
                             this.props.state === 'f-questions' ? {borderBottom: '#7E2C81  3px solid'}:
                         {borderBottom:'none'}}>Preguntas Frecuentes</Nav.Link>
 
-                        <Nav.Link href="/Contacto" style={
+                        <Nav.Link as={Link} to="/Contacto" style={
                             this.props.state === 'contacto' ? {borderBottom: '#7E2C81  3px solid'}:
                         {borderBottom:'none'}}>Contácto</Nav.Link>
-                        <Nav.Link href="/Donar" style={
+                        <Nav.Link as={Link} to="/Donar" style={
                             this.props.state === 'donation' ? {borderBottom: '#7E2C81  3px solid'}:
                         {borderBottom:'none'}}>Dona</Nav.Link>
                     </Nav>

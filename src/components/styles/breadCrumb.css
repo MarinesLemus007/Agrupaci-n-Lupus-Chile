@@ -8,6 +8,6 @@
     padding-top: 20px;
 }
 
-.breadcrumb-item > a {
+.breadcrumb-item {
     color: #6c1a6f;
 }

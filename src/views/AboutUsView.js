@@ -5,7 +5,7 @@ import { Row } from 'react-bootstrap';
 import "./styles/aboutUsView.css";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Breadcrumb from '../components/BreadCrumb';
 import agrupacionFachada from "../img/agrupacionFachada.jpg";
 import Submit from '../components/Submit.js'
 
@@ -15,11 +15,8 @@ class AboutUs extends React.Component {
             <div className="AboutUs">
                 <Navbar state="about-us"/>
 
-                <Breadcrumb>
-                <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
+                <Breadcrumb name="¿Quiénes somos?"/>
                 
-                <Breadcrumb.Item active>Quiénes Somos?</Breadcrumb.Item>
-                </Breadcrumb>
                 <section>
                     <Container>
                         <Row> 
@@ -72,11 +69,11 @@ class AboutUs extends React.Component {
                         <Row>
                             <Col sm={12}>
                                 <div className='linksOfInterest'>
-                                    <lu>
+                                    <ul>
                                         <li><a href="/">Link 1</a></li>
                                         <li><a href="/Donar">Link 2</a></li>
                                         <li><a href="/Suscribe">Link 3</a></li>
-                                    </lu>
+                                    </ul>
                                 </div>    
                             </Col>
                         </Row>
