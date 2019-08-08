@@ -14,7 +14,7 @@ class ContactView extends React.Component{
         return (
             <>
                 
-                <NavBar/>
+                <NavBar state="contacto"/>
             <Container>
                 <Breadcrumb name="Contacto" />
                 <section className="section-contact-title">

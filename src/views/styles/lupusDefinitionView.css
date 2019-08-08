@@ -41,15 +41,13 @@ body {
 .definition-ul > li > h4{
     font-size:20px;
 }
-.img-def-1{
+.img-def-1,.img-def-2{
     width: 100%;
     height: 80%;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .img-def-2{
-    width: 100%;
     height: 100%;
-    border-radius: 5px;
 }
 
 .img-container{

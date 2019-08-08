@@ -8,7 +8,7 @@ class GesView extends React.Component{
     render(){
         return (
             <>
-                <NavBar/>
+                <NavBar state="ges"/>
                 <BodyGes/>
                 <Footer/>
             </>

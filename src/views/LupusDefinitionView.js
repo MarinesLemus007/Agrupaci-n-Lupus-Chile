@@ -13,11 +13,15 @@ import Breadcrumb from '../components/BreadCrumb';
 import Submit from '../components/Submit';
 
 class LupusDefinition extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {selectedNavbar:'lupus-definition'}
+      }
 
     render(){
         return (
             <>
-            <NavBar/>
+            <NavBar state={this.state.selectedNavbar}/>
            
             <Container> 
                 <Breadcrumb name="¿Que es Lupus?"/>

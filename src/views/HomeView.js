@@ -9,12 +9,13 @@ import IndexCarousel from '../components/IndexCarousel';
 import ButtonIndex from '../components/ButtonIndex';
 
 class HomeView extends React.Component{
+    
 
     render(){
         return (
             <>
                
-                <NavBar/>
+                <NavBar state="home"/>
                 <Container>
                 <section className="testimony">
                     <Row>

@@ -23,8 +23,18 @@ nav > .container{
   align-self: center;
 }
 nav > div > div > div > a, nav > div > div > div >div > a{
+  text-align: center;
   color:black !important;
   font-family: 'Shanti', sans-serif;
-  font-size: 16px;
-  margin:10px;
+  font-size: 15px;
+  margin:8px;
+}
+
+.navbar {    
+  background: #2C3E50;
+}
+.navbar-nav > div > div > a:active{
+  background-color: #f8f9fa;
+  color:black;
+
 }

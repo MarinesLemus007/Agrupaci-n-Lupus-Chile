@@ -13,7 +13,7 @@ class AboutUs extends React.Component {
     render(){
         return (
             <div className="AboutUs">
-                <Navbar/>
+                <Navbar state="about-us"/>
 
                 <Breadcrumb>
                 <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
