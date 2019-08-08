@@ -8,3 +8,23 @@ body {
 .navbar{
     box-shadow: 2px 2px 15px -10px rgba(0,0,0,0.75);
 }
+.navbar-brand > img{
+  width: 70%;
+  height: auto;
+}
+.dropdown-item{
+  padding : .25rem 4.5rem !important;
+}
+nav > .container{
+  margin-bottom: 0px;
+}
+
+.dropdown.nav-item,.nav-link{
+  align-self: center;
+}
+.nav-link{
+  color:black !important;
+  font-family: 'Shanti', sans-serif;
+  font-size: 16px;
+  margin:10px;
+}

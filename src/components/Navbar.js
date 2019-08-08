@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../img/logo.png';
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 import './styles/navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,6 +11,7 @@ class NavBar extends React.Component{
         return (
 
             <Navbar bg="white" expand="lg">
+                <Container>
                 <Navbar.Brand href="/">
                     <img
                         src={logo}
@@ -23,24 +24,20 @@ class NavBar extends React.Component{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="/">Inicio</Nav.Link>
-                        <NavDropdown title="¿Qué es el Lupus?" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/Que-es-el-lupus">
-                                ¿Qué es el Lupus?
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
+            
+
+                        <Nav.Link href="/Que-es-el-lupus">¿Qué es el Lupus?</Nav.Link>
+                    
                         <NavDropdown title="¿Cómo costear tu enfermedad?" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/ges">
+                        <NavDropdown.Item href="/ges">
                                 ¿Qué es el Ges?
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                            <NavDropdown.Item href="/ges">Ley Ricarte Soto</NavDropdown.Item>
+            
+                            
+                         
+            
                         </NavDropdown>
                         <Nav.Link href="/Quienes-Somos">¿Quiénes somos?</Nav.Link>
                         <Nav.Link href="/Preguntas-Frecuentes">Preguntas Frecuentes</Nav.Link>
@@ -48,6 +45,7 @@ class NavBar extends React.Component{
                         <Nav.Link href="/Donar">Dona</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+                </Container>
             </Navbar>
         )
     }

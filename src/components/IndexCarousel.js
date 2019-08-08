@@ -28,7 +28,7 @@ class IndexCarousel extends Component {
                             Enfermedades crónicas como el Lupus significan constantes gastos en consultas médicas, exámenes y evaluaciones, terapias,
                             y medicamentos.</p>
                             <div className="div-read-more">
-                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
+                                <a className="a-read-more" href="/ges">>Leer mas</a>
                                 </div>
                         </Col>
                     </Row>
@@ -48,7 +48,7 @@ class IndexCarousel extends Component {
                                 familiares y amigos del Lupus dando ayuda moral, y ser un oído a sus problemas.
                             </p>
                                 <div className="div-read-more">
-                                <a className="a-read-more" href="/ges">>Leer mas</a>
+                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
                                 </div>
                         </Col>
                     </Row>
@@ -64,11 +64,10 @@ class IndexCarousel extends Component {
                         </Col>
                         <Col md={7}>
                             <h2 className="carousel-title">Defensa de derechos</h2>
-                            <p>El GES es un sistema de cobertura de ciertos problemas de salud para dotarlos de garantías de acceso, 
-                                oportunidad, protección financiera y calidad, por lo que todas las personas que estén en esa condición 
-                                de acceso al GES pueden hacer valer sus garantías como derechos.</p>
+                            <p>La Agrupación trabaja para que los pacientes puedan tener un tratamiento de calidad; generar espacios de educación sobre la enfermedad; gestionar donaciones de medicamentos y poder 
+                                representar a los pacientes ante las formulación de políticas públicas en salud.</p>
                                 <div className="div-read-more">
-                                <a className="a-read-more" href="/ges">>Leer mas</a>
+                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
                                 </div>
                         </Col>
                     </Row>
