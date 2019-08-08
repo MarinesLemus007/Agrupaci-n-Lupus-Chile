@@ -4,12 +4,11 @@ import Button from 'react-bootstrap/Button'
 import { Row } from 'react-bootstrap';
 import "../styles/Submit.css";
 
-
-
 class Submit extends React.Component {
     render(){
         return (
             <div className="Submit">
+
                 <Form>
                     <div className="Submit" >                         
                         <h3>¡Recibe nuestro boletín de noticias!</h3> 

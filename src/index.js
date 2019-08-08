@@ -8,9 +8,8 @@ import GesView from './views/GesView';
 import AboutUs from './views/AboutUs';
 import Donation from './views/Donation';
 import Submit from './views/Submit';
-
-
-
+import ContactView from './views/ContactView';
+import FrequentQuestions from './views/FrequentQuestions';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -22,10 +21,9 @@ const routing = (
       <Route path='/Ges' component={GesView} />
       <Route path='/Quienes-Somos' component={AboutUs} />
       <Route path='/Donar' component={Donation} />
-      <Route path='/Suscribe' component={Submit} />
-
-
-
+      <Route path='/Contacto' component={ContactView} />
+      <Route path='/suscribete' component={Submit} />
+      <Route path='/Preguntas-Frecuentes' component={FrequentQuestions} />
     </div>
   </Router>
 )

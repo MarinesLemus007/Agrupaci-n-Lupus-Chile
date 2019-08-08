@@ -103,11 +103,11 @@ class BodyGes extends React.Component{
                         <Col sm={12}>
                             <div className='ges-line-seven'>
 
-                                <lu>
+                                <ul>
                                     <li><a href="/#">Link 1</a></li>
                                     <li><a href="/#">Link 2</a></li>
                                     <li><a href="/#">Link 3</a></li>
-                                </lu>
+                                </ul>
 
                             </div>    
                         </Col>

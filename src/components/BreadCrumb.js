@@ -10,7 +10,7 @@ class BreadCrumb extends React.Component{
                 <Breadcrumb.Item href="/">
                     Inicio
                 </Breadcrumb.Item>
-                <Breadcrumb.Item disables href="/holi">
+                <Breadcrumb.Item disables href="/Que-es-el-lupus">
                     ¿Qué es el Lupus?
                 </Breadcrumb.Item>
                 <Breadcrumb.Item disables href="/Ges">
