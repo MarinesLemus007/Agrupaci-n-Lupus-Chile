@@ -4,7 +4,8 @@ import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Submit from '../components/Submit';
+import Breadcrumb from './BreadCrumb';
 import "./styles/friendsForm.css"
 // import facebook_white from "../img/iconosPng/facebook_white.png";
 
@@ -13,18 +14,14 @@ import "./styles/friendsForm.css"
 class FriendsForm extends React.Component {
     render(){
         return (
-            <Container fluid>
-                <Breadcrumb>
-                    <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
-                    <Breadcrumb.Item href='/FriendsForm'>
-                    Contáctanos
-                    </Breadcrumb.Item>
-                    <Breadcrumb.Item active>Contáctanos</Breadcrumb.Item>
-                </Breadcrumb>
-
+            <Container >
+                <Breadcrumb name="Donar"/>
+               
                 <div className="FriendForm">
-                    <h1>Contáctanos</h1>
-                    <p>En agrupación Lupus, siempre serán bien recibidas todos los tipo de ayuda, ya sea si quieres aportar con trabajo o con aporte monetario, según sea el caso, llena los siguientes formularios</p>
+                    <h1>Aporta con la Agrupación</h1>
+                    <p>En agrupación Lupus, siempre serán bien recibidas todos los tipo de ayuda,
+                        ya sea si quieres aportar con trabajo o con aporte monetario, según sea el caso,
+                        llena los siguientes formularios</p>
                     <h2>Aporte monetario</h2> 
             
             
@@ -157,6 +154,7 @@ class FriendsForm extends React.Component {
                         </Button>
                     </div>
                 </Form>
+                <Submit/>
             </div>
             
         </Container>
