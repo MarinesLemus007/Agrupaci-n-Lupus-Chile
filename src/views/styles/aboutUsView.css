@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Shanti&display=swap');
 body {
-  margin: 0;
+    margin: 0;
   font-family: 'Shanti', sans-serif;
+  background:white;
+ }
+ .AboutUsSecond h2{
+     color: #6c1a6f;
  }
 
 .agrupacion{
+    border-radius: 8px;
     width: 100%
 } 
 
@@ -20,18 +25,21 @@ body {
 .AboutUsthird {
     padding: 0 0 128px 0;
 }
+.linksOfInterest{
+    padding: 0 0 3% 0 ;
+}
 .linksOfInterestTitle h2 {
     padding: 0 0 32px 0;
+    color: #6c1a6f;
 }
-
 .linksOfInterest a:link {
-    color: #7E2C81;
+    color: #6c1a6f;
 }
 .linksOfInterest a:visited {
     color: grey;
 }
 .linksOfInterest a:active {
-    color: #7E2C81;
+    color: #6c1a6f;
     background-color: white;
 }
 .linksOfInterest a:hover {
@@ -39,8 +47,6 @@ body {
     background-color: #7E2C81;
     background:white;
 }
-
-
 .form-group.col-md-2{
     display: flex;
     justify-content: center;

@@ -1,7 +1,3 @@
-.FriendForm{
-    padding: 5%;
-}
-
 .form-row>.col, .form-row>[class*=col-] {
     padding-right: 24px;
     padding-left: 28px;
@@ -18,18 +14,24 @@
 
 .FriendForm p{
     padding-bottom: 48px;
-
 }
 .FriendForm h2{
     padding-bottom: 32px;
+    color: #6c1a6f;
 
 }
 .timeContribution h2{
     padding-bottom: 32px;
+    color: #6c1a6f;
+
 }
-.btn{
+button.btn.btn.btn-primary{
+
     background-color: #7E2C81;
     border-color: #7E2C81;
-    width: 200px;
+    width: 155px;
     float: right;
+}
+.Submit{
+    padding-top: 7%;
 }
