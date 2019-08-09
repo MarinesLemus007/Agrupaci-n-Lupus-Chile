@@ -7,16 +7,24 @@ import img_def_1 from '../img/img_def_1.jpg';
 import img_def_2 from '../img/img_def_2.jpg';
 import img_def_3 from '../img/img_def_3.jpg';
 import img_def_4 from '../img/img_def_4.jpg';
+import img_def_5 from '../img/img_def_5.jpg';
+import img_def_6 from '../img/img_def_6.jpg';
 import Breadcrumb from '../components/BreadCrumb';
+import Submit from '../components/Submit';
 
 class LupusDefinition extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {selectedNavbar:'lupus-definition'}
+      }
 
     render(){
         return (
             <>
-            <NavBar/>
-            <Breadcrumb name="¿Que es Lupus?"/>
-            <Container>
+            <NavBar state={this.state.selectedNavbar}/>
+           
+            <Container> 
+                <Breadcrumb name="¿Que es Lupus?"/>
                 <section className="definition-0">
                     <Row>
                         <Col>
@@ -109,7 +117,7 @@ class LupusDefinition extends React.Component{
                 <section className="definition-3">
                     <Row>
                         <Col md={12}>
-                            <p>Aunque es conocido que el Lupus se presenta en miembros de una misma familia, aun no se sabe si uno o varios genes son los responsables de la enfermedad. solo el <strong>10% de los pacientes con Lupus tiene un 
+                            <p>Aunque es conocido que el Lupus se presenta en miembros de una misma familia, aun no se sabe si uno o varios genes son los responsables de la enfermedad. Solo el <strong>10% de los pacientes con Lupus tiene un 
                             familiar</strong> cercano (padres o hermanos), <strong>que presenta o puede desarrollar Lupus.</strong> Las estadísticas señalan que sólo alrededor del <strong>5% de los hijos nacidos de pacientes con Lupus</strong>, tienen <strong>posibilidades de tener Lupus </strong>eventualmente.
                             El <strong>Lupus ocurre con mayor frecuencia en mujeres</strong> que en hombres. El aumento de los síntomas de la enfermedad antes y después de los periodos menstruales y/o durante el embarazo, apoya la creencia que las hormonas, 
                             particularmente los estrógenos, pueden en alguna forma regular la forma y el progreso de la enfermedad. 
@@ -131,13 +139,13 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_def_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_5} alt="Sobre Nosotros" />
                                 </Col>
                             </div>
                         </Col>
                     </Row>
                 </section>
-                <section className="definition-3">
+                <section className="definition-no-photo">
                     <Row>
                         <Col md={12}>
                             <table>
@@ -169,7 +177,7 @@ class LupusDefinition extends React.Component{
                         <Col md={5}>
                             <div className="img-container">
                                 <Col>
-                                    <img className="img-def-2" src={img_def_1} alt="Sobre Nosotros" />
+                                    <img className="img-def-2" src={img_def_6} alt="Sobre Nosotros" />
                                 </Col> 
                            </div>
                         </Col>
@@ -181,7 +189,7 @@ class LupusDefinition extends React.Component{
                     </Row>
                 </section>
 
-                <section className="definition-3">
+                <section className="definition-no-photo">
                     <Row>
                         <Col md={12}>
                             <ul className="definition-ul">
@@ -203,6 +211,7 @@ class LupusDefinition extends React.Component{
                         </Col>
                     </Row>
                 </section>
+                <Submit/>
                 </Container>
                 <Footer/>
             </>

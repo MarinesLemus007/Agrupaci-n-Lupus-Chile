@@ -1,6 +1,12 @@
 .container{
     margin-bottom: 60px;
 }
+.section-contact{
+    margin:0rem 0rem 6rem 0rem
+}
+.section-contact-title{
+    margin : 2rem 0rem 4rem 0rem
+}
 .icon_contact{
     height: 60px;
     margin:5px;

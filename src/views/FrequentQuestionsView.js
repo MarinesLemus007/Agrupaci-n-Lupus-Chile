@@ -8,7 +8,7 @@ class FrequentQuestions extends React.Component{
     render(){
         return (
             <>
-                <NavBar/>
+                <NavBar state="f-questions"/>
                 <BodyQuestions/>
                 <Footer/>
             </>

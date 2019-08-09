@@ -4,9 +4,10 @@
     background-color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #6c1a6f;
+    padding-left: 0px;
+    padding-top: 20px;
 }
 
-.breadcrumb-item > a {
+.breadcrumb-item {
     color: #6c1a6f;
 }

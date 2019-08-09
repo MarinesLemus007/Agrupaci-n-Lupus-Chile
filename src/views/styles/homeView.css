@@ -5,8 +5,8 @@ body {
   background:white;
 }
 /* seccion testimonios */
-.testimony,.work-approach{
-    margin: 4rem 0rem 8rem 0rem;
+.testimony,.work-approach,.get-involved{
+    margin: 4rem 0rem 4rem 0rem;
     font-size: 20px;
 }
 
@@ -18,24 +18,25 @@ body {
 }
 .img-home{
     width: 100%;
+    border-radius: 8px;
 }
 
 .img-container{
     text-align: center;
 }
-.div-testimony{
+.div-read-more{
     display: flex;
     justify-content: flex-end;
 }
 
-.a-testimony{
+.a-read-more{
     margin-right: 50px;
     font-size: 15px;
     color: #7E2C81;
     border-bottom: 3px solid  #7E2C81;
     padding-bottom: 3px;
 }
-.a-testimony:hover{
+.a-read-more:hover{
     text-decoration: none;
     color:rgb(154, 101, 156);
     border-bottom: 3px solid  rgb(154, 101, 156);
@@ -60,14 +61,22 @@ body {
     font-weight: bolder;
     margin-bottom: 24px;
 }
+.carousel-title{
+    margin-bottom: 5px;
+    font-size:25px;
+    font-weight: bolder;
+    color: #6c1a6f;
+}
 
 .w-100{
-    margin-bottom: 8px;
+    margin: 6px 0px 6px 0px;
+    border-radius: 8px;
 }
+
 
 /*/ seccion involucrate /*/ 
 .get-involved{
-    margin:8rem 0rem 4rem 0rem;
+    margin:8rem 0rem 6rem 0rem;
 }
 
 .button{
@@ -78,7 +87,7 @@ body {
     color:white;
     width:100%;
     margin:10px 0px 10px 0px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding:20px;
 }
 
