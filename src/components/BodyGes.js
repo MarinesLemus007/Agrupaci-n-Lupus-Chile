@@ -18,7 +18,7 @@ class BodyGes extends React.Component{
                     <Row>
                         <Col>
                             <div className='ges-line'>
-                                <h1>¿Qués es el Ges?</h1>
+                                <h1 className="ges-title">¿Qués es el Ges?</h1>
                             </div>    
                         </Col>
                     </Row>
@@ -59,8 +59,8 @@ class BodyGes extends React.Component{
                             </div> 
                         </Col>
                         <Col md={6}>
-                            <div className='ges-line-three'>
-                                <h2>Qué son las canastas en el GES?</h2>
+                            <div className='ges-line-two'>
+                                <h2 className="ges-subtitle">Qué son las canastas en el GES?</h2>
                                 <p>
                                     Las canastas son las prestaciones que están garantizadas y se reciben
                                     por el GES para un problema de salud determinado. Las canastas pueden
@@ -81,8 +81,8 @@ class BodyGes extends React.Component{
 
                     <Row>
                         <Col>
-                            <div className='ges-line-four'>
-                                <h2>No olvides tener presente:</h2>
+                            <div className='ges-line-two'>
+                                <h2 className="ges-subtitle">No olvides tener presente:</h2>
                                 <p>
                                    <p><strong>El GES solamente funciona para personas beneficiarias
                                        o afiliadas a Isapre o FONASA.
@@ -97,30 +97,21 @@ class BodyGes extends React.Component{
 
                     <Row>
                         <Col>
-                            <div className='ges-line-five'>
-                                <h1>Sigue leyendo</h1>
+                            <div className='ges-line-three'>
+                                <h1 className="ges-title">Sigue leyendo</h1>
                             </div>    
                         </Col>
                     </Row>
 
                     <Row>
                         <Col>
-                            <div className='ges-line-six'>
+                            <div className='ges-line-four'>
                                 <p>Visita los siguientes links</p>
-                            </div>    
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col sm={12}>
-                            <div className='ges-line-seven'>
-
                                 <ul>
                                     <li><a href="/#">Link 1</a></li>
                                     <li><a href="/#">Link 2</a></li>
                                     <li><a href="/#">Link 3</a></li>
                                 </ul>
-
                             </div>    
                         </Col>
                     </Row>
