@@ -1,5 +1,5 @@
 import React from 'react';
-import lupus from '../img/lupus_ges_1.jpg';
+import law from '../img/law_one.jpg';
 import lupus_two from '../img/lupus_ges_2.jpg';
 import './styles/bodyGes.css';
 import {Container, Row, Col} from 'react-bootstrap';
@@ -7,47 +7,35 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BreadCrumb from '../components/BreadCrumb';
 import Submit from '../components/Submit';
 
-class BodyGes extends React.Component{
+class BodyLawRicarte extends React.Component{
 
     render(){
         return (
             <>
             <section>
                 <Container>
-                    <BreadCrumb name="¿Qué es el Ges?" />
+                    <BreadCrumb name="Ley Ricarte Soto" />
                     <Row>
                         <Col>
-                            <div className='ges-line'>
-                                <h1>¿Qués es el Ges?</h1>
+                            <div className='law-line'>
+                                <h1>Ley Ricarte Soto</h1>
                             </div>    
                         </Col>
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <div className='ges-line-two'>
+                            <div className='law-line-two'>
                                 <p>
-                                    El GES es un régimen de Garantías Explícitas en Salud
-                                    (antes llamado AUGE, Acceso Universal a Garantías de Salud)
-                                    que comenzó a regir el año 2007 para dar respuesta a los
-                                    problemas de salud que representan la mayor carga de enfermedad
-                                    en el país, y opera para los beneficiarios y afiliados de los
-                                    Sistemas de Salud de FONASA e Isapres.
-                                </p>
-                                <p>
-                                    Contar con el GES significa, entre otras cosas, estar protegido en la enfermedad!
-                                    Esto tiene especial importancia con la garantía de protección financiera para
-                                    enfermedades crónicas como el Lupus, ya que es de un costo elevado por todo
-                                    el amplio espectro de situaciones que puede pasar un paciente. Antes del GES,
-                                    un paciente «leve» podía gastar desde $40.000 solamente por la Hidroxicloroquina,
-                                    y hoy pagará no más de $3.320 por su medicamento y otras prestaciones. Asimismo,
-                                    un paciente «grave», usando Hidroxicloroquina, Micofelonato y otros medicamentos,
-                                    podía gasta desde los $250.000 y hoy no pagará más allá de $23.180.
+                                    El pasado 15 de marzo el Ministero de Salud citó a varias organizaciones
+                                    de pacientes para oficializar la decisión de las coberturas que estarán en
+                                    el próximo cuarto decreto de la Ley Ricarte Soto, a partir del 1 de julio
+                                    de este año.
                                 </p>
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div className='ges-img'>
-                                <img src={lupus} className="img-container" alt="Lupus_Ges" />
+                            <div className='law-img'>
+                                <img src={law} className="img-container" alt="Ley Ricarte Soto" />
                             </div> 
                         </Col>
                     </Row>
@@ -131,4 +119,4 @@ class BodyGes extends React.Component{
         )
     }
 }
-export default BodyGes;
+export default BodyLawRicarte;

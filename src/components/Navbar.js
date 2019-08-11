@@ -41,7 +41,7 @@ class NavBar extends React.Component{
                             </NavDropdown.Item>
 
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="/ges">Ley Ricarte Soto</NavDropdown.Item>
+                            <NavDropdown.Item href="/law">Ley Ricarte Soto</NavDropdown.Item>
             
                             
                          
