@@ -13,7 +13,7 @@ class NavBar extends React.Component{
 
             <Navbar bg="white" expand="lg">
                 <Container>
-                <Navbar.Brand as={Link} to="/">
+                <Navbar.Brand as={Link} to={process.env.PUBLIC_URL + '/'}>
                     <img
                         src={logo}
                         width="50"
@@ -41,7 +41,7 @@ class NavBar extends React.Component{
                             </NavDropdown.Item>
 
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="/law">Ley Ricarte Soto</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/Law">Ley Ricarte Soto</NavDropdown.Item>
             
                             
                          
