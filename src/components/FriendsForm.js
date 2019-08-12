@@ -18,11 +18,11 @@ class FriendsForm extends React.Component {
                 <Breadcrumb name="Donar"/>
                
                 <div className="FriendForm">
-                    <h1>Aporta con la Agrupación</h1>
+                    <h1 className ="definition-title">Aporta con la Agrupación</h1>
                     <p>En agrupación Lupus, siempre serán bien recibidas todos los tipo de ayuda,
                         ya sea si quieres aportar con trabajo o con aporte monetario, según sea el caso,
                         llena los siguientes formularios</p>
-                    <h2>Aporte monetario</h2> 
+                    <h2 className ="definition-subtitle">Aporte monetario</h2> 
             
             
                 <Form>
@@ -108,7 +108,7 @@ class FriendsForm extends React.Component {
                     </div>
 
                     <div className="timeContribution"> 
-                        <h2>Apórtanos con tu trabajo </h2>
+                        <h2 className ="definition-subtitle">Apórtanos con tu trabajo </h2>
                     <Form.Row>
                             <Form.Group as={Col} controlId="formGridfirstName">
                                 <Form.Label>Nombre</Form.Label>

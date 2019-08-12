@@ -2,9 +2,14 @@
 body {
     margin: 0;
   font-family: 'Shanti', sans-serif;
-  background:white;
+  background:#ffffff;
  }
+ body p{
+font-size: 20px;
+ }
+ 
  .AboutUsSecond h2{
+    padding: 0px 0 0px 0;
      color: #6c1a6f;
  }
 
@@ -17,7 +22,7 @@ body {
     padding: 64px 0 64px 0;
 }
 .AboutUsSecond p{
-    padding: 64px 0 64px 0;
+    padding: 0px 0 64px 0;
 }
 .AboutUsthird p {
     padding: 64px 0 64px 0;
@@ -29,10 +34,18 @@ body {
     padding: 0 0 3% 0 ;
 }
 .linksOfInterestTitle h2 {
-    padding: 0 0 32px 0;
+    padding: 0 0 px 0;
     color: #6c1a6f;
 }
-.linksOfInterest a:link {
+a {
+    color: #6c1a6f;
+}
+
+a:hover{
+    color: #6c1a6f;
+}
+
+/* .linksOfInterest a:link {
     color: #6c1a6f;
 }
 .linksOfInterest a:visited {
@@ -46,7 +59,7 @@ body {
     color: white;
     background-color: #7E2C81;
     background:white;
-}
+} */
 .form-group.col-md-2{
     display: flex;
     justify-content: center;

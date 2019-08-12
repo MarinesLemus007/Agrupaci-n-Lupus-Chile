@@ -21,7 +21,7 @@ class AboutUs extends React.Component {
                         <Row> 
                             <Col md={7} >
                             <div className="AboutUsfirth">   
-                                <h1>Quiénes somos</h1>  
+                                <h1 className="definition-title">Quiénes somos</h1>  
                                 <p>Agrupación Lupus Chile nace de la iniciativa de difundir en forma correcta nuestra enfermedad
                                     a la sociedad.
                                     A instancias de una madre que quiso mostrarle a su hija de 10 años recién diagnosticada con Lupus
@@ -41,15 +41,17 @@ class AboutUs extends React.Component {
                         </Row>  
                         <Row>
                             <Col md={12} >  
-                                <div className="AboutUsSecond"> 
-                                    <h2>En qué estamos hoy?</h2>
+                                <div  className="AboutUsSecond"> 
+                                <h2 className="definition-subtitle">En qué estamos hoy?</h2>
                                     <p>Agrupación Lupus Chile busca ser una fuente continua de información y apoyo a los pacientes y 
                                         familiares que deben vivir con esta enfermedad, sobre todo en las primeras etapas luego del diagnóstico.
                                         Buscamos informar, para que el Lupus pueda ser reconocido por la sociedad y se me mejore
                                         el diagnóstico precoz de la enfermedad, esto significa menor compromiso de órganos y por lo tanto 
                                         mejor calidad de vida.
                                     </p>
-                                    <h2>Líneas de trabajo</h2>
+                                </div>
+                                <div  className="AboutUsSecond"> 
+                                    <h2 className="definition-subtitle">Líneas de trabajo</h2>
                                     <p>Dentro de las líneas de trabajo de la Agrupación está que los pacientes de Lupus en Chile puedan:
                                         Tener un tratamiento de calidad y acceso oportuno
                                         Generar espacios de educación sobre la enfermedad
@@ -77,14 +79,14 @@ class AboutUs extends React.Component {
                         <Row>
                             <Col sm={12}>
                                 <div className='linksOfInterestTitle'>
-                                    <h2>Enlaces de interés</h2>
+                                <h2 className="definition-subtitle">Enlaces de interés</h2>
                                 </div>    
                             </Col>
                         </Row>
                             <Row>
                             <Col sm={12}>
                                 <div className='linksOfInterest'>
-                                    <h4>Visita los siguientes links</h4>
+                                <p>Visita los siguientes links</p>
                                 </div>    
                             </Col>
                         </Row>
