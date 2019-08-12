@@ -8,7 +8,6 @@ class Submit extends React.Component {
     render(){
         return (
             <div className="Submit">
-
                 <Form action="https://formspree.io/majomarquez@gmail.com" method="POST">
                     <div className="Submit" >                         
                         <h3>¡Recibe nuestro boletín de noticias!</h3> 
