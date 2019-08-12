@@ -156,7 +156,6 @@ class FriendsForm extends React.Component {
                 </Form>
                 <Submit/>
             </div>
-            
         </Container>
     )}
 }

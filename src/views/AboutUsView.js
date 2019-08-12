@@ -100,8 +100,10 @@ class AboutUs extends React.Component {
                             </Col>
                         </Row>
                         <Submit/>
-                    </Container>    
+                    </Container>
+                     
                 <Footer/>
+                   
             </div>
         )
     }
