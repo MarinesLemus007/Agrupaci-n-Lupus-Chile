@@ -9,7 +9,7 @@ import Donation from './views/DonationView';
 import ContactView from './views/ContactView';
 import FrequentQuestions from './views/FrequentQuestionsView';
 import * as serviceWorker from './serviceWorker';
-
+import LawRicarteView from './views/LawRicarteView';
 
 const routing = (
     <Router>
@@ -17,6 +17,7 @@ const routing = (
       <Route exact path={process.env.PUBLIC_URL + '/'} component={HomeView} />
       <Route path='/Que-es-el-lupus' component={LupusDefinition} />
       <Route path='/Ges' component={GesView} />
+      <Route path='/law' component={LawRicarteView} />
       <Route path='/Quienes-Somos' component={AboutUs} />
       <Route path='/Donar' component={Donation} />
       <Route path='/Contacto' component={ContactView} />

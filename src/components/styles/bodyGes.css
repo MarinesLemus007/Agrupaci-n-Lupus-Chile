@@ -6,38 +6,46 @@ body {
 }
 
 section{
-    margin: 8rem 0rem 8rem 0rem;
     font-size: 20px;
 }
+.ges-line{
+    margin: 2rem 0rem 4rem 0rem;
+}
 
+.ges-line-two, .ges-img{
+    margin: 4rem 0rem 4rem 0rem;
+}
 .ges-img{
-    text-align: center;
+    text-align: center; 
 }
 
 .img-container{
     width: 100%;
+    border-radius: 8px;
+}
+.ges-line-three{
+    margin: 8rem 0rem 2rem 0rem;
 }
 
-div.row>div.col-sm-12>div.line-migas {
-    margin: 0px 0px 32px 0px;
+.ges-line-four{
+    margin: 2rem 0rem 8rem 0rem;
 }
 
-div.row>div.col-sm-12>div.ges-line{
-    margin: 0px 0px 64px 0px;
+.ges-subtitle {
+    font-size:25px;
+    font-weight: bolder;
+    color: #6c1a6f;
 }
 
-div.row>div.col-sm-4>div.ges-img{
-    text-align: center;
+a {
+    color: #6c1a6f;
 }
 
-div.row>div.col-sm-8{
-   margin: 0px 0px 64px 0px;
+a:hover{
+    color: #6c1a6f;
 }
 
-div.row> div.col-sm-12>div.ges-line-five>h1{
-    margin-top: 128px;
-}
-
-div.row> div.col-sm-12>div.ges-line-six>p{
-    margin-top: 32px;
+.ges-title{
+    font-weight: bolder;
+    margin-bottom: 24px;
 }
