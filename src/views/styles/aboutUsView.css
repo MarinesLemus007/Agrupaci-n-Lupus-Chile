@@ -12,11 +12,23 @@ font-size: 20px;
     padding: 0px 0 0px 0;
      color: #6c1a6f;
  }
+.house{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
 .agrupacion{
     border-radius: 8px;
-    width: 100%
-} 
+}
+img.agrupacion{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 65%;
+      }
 
 .AboutUsfirth p {
     padding: 64px 0 64px 0;
