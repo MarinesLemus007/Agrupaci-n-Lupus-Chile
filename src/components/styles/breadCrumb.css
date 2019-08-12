@@ -8,6 +8,9 @@
     padding-top: 20px;
 }
 
+
 .breadcrumb-item {
     color: #6c1a6f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }

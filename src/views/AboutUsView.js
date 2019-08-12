@@ -34,7 +34,7 @@ class AboutUs extends React.Component {
                             </div>
                             </Col>
                             <Col md={5} >
-                                <div>
+                                <div className="house">
                                     <img className="agrupacion" src={agrupacionFachada} alt="agrupacionFachada" />
                                 </div> 
                             </Col> 
