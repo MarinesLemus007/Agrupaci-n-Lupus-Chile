@@ -13,7 +13,7 @@ class NavBar extends React.Component{
 
             <Navbar bg="white" expand="lg">
                 <Container>
-                <Navbar.Brand as={Link} to={process.env.PUBLIC_URL + '/'}>
+                <Navbar.Brand as={Link} to='/'>
                     <img
                         src={logo}
                         width="50"

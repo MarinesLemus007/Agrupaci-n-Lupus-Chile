@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './styles/homeView.css';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -26,7 +27,7 @@ class HomeView extends React.Component{
                                     conviven a diario con Lupus. 
                                 </p>
                                 <div className="div-read-more">
-                                <a className="a-read-more" href="/">>Leer mas</a>
+                                <Link className="a-read-more" to="/">>Leer mas</Link>
                                 </div>
                         </Col>  
                         <Col md={5}>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import { Row , Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import img_carousel_2 from '../img/img_carousel_0.jpg';
@@ -28,7 +29,8 @@ class IndexCarousel extends Component {
                             Enfermedades crónicas como el Lupus significan constantes gastos en consultas médicas, exámenes y evaluaciones, terapias,
                             y medicamentos.</p>
                             <div className="div-read-more">
-                                <a className="a-read-more" href="/ges">>Leer mas</a>
+                                
+                            <Link className="a-read-more" to="/ges">>Leer mas</Link>
                                 </div>
                         </Col>
                     </Row>
@@ -48,7 +50,7 @@ class IndexCarousel extends Component {
                                 familiares y amigos del Lupus dando ayuda moral, y ser un oído a sus problemas.
                             </p>
                                 <div className="div-read-more">
-                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
+                                <Link className="a-read-more" to="/Quienes-somos">>Leer mas</Link>
                                 </div>
                         </Col>
                     </Row>
@@ -67,7 +69,7 @@ class IndexCarousel extends Component {
                             <p>La Agrupación trabaja para que los pacientes puedan tener un tratamiento de calidad; generar espacios de educación sobre la enfermedad; gestionar donaciones de medicamentos y poder 
                                 representar a los pacientes ante las formulación de políticas públicas en salud.</p>
                                 <div className="div-read-more">
-                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
+                                <Link className="a-read-more" to="/Quienes-somos">>Leer mas</Link>
                                 </div>
                         </Col>
                     </Row>
@@ -86,7 +88,7 @@ class IndexCarousel extends Component {
                             <p>Como todos los años, el mes de Mayo es el mes del Lupus, y el día 10 es el #DiaMundialDelLupus, 
                                 donde todas las organizaciones de pacientes del mundo están invitadas a participar en la difusión de la enfermedad y en la creación de conciencia.</p>
                                 <div className="div-read-more">
-                                <a className="a-read-more" href="/Quienes-somos">>Leer mas</a>
+                                 <Link className="a-read-more" to="/Quienes-somos">>Leer mas</Link>
                                 </div>
                         </Col>
                     </Row>

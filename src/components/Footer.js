@@ -9,6 +9,7 @@ import twitter_white from "../img/iconosPng/twitter_white.png";
 import pin_white from "../img/iconosPng/pin_white.png";
 import whatsapp_white from "../img/iconosPng/whatsapp_white.png";
 import email_white from "../img/iconosPng/email_white.png";
+import { Link } from 'react-router-dom'
 
 
 
@@ -52,16 +53,18 @@ class Footer extends React.Component {
                         <div className="info">   
                             <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a className="nav-link active" href="/#"> ¿Qué es el Lupus?</a>
+                            <Link className="nav-link active" to="/">¿Qué es el Lupus?</Link>
+                                
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">¿Cómo costear tu enfermedad?</a>
+                            <Link className="nav-link" to="/">¿Cómo costear tu enfermedad?</Link>
+                            
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">¿Quienes somos?</a>
+                            <Link className="nav-link" to="/">¿Quienes somos?</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">Dona</a>
+                            <Link className="nav-link" to="/">Dona</Link>
                             </li>
                             </ul>
                         </div>
